@@ -4,5 +4,39 @@ title:  "Week 8 Assignment"
 date:   2025-03-23 17:22:57 +0100
 categories: jekyll update
 ---
-Hello world
-Hello week 8
+
+# The Hidden Truth in the Numbers
+
+> *A dive into social data and the patterns beneath the surface.*
+
+![Banner image](/assets/img/magazine-header.jpg)
+
+In Spring 2025, our class explored social data visualization through real-world datasets. This article looks at the surprising trends that emerged from our latest analysis...
+
+---
+
+## The Data Speaks
+
+We used Python and Flourish to break down survey data from local communities. One trend immediately jumped out...
+
+> “You can’t manage what you don’t measure.”  
+> — *Peter Drucker*
+
+## Key Visualization
+
+<iframe src="https://flo.uri.sh/your-chart-id/embed" width="100%" height="600" frameborder="0"></iframe>
+
+---
+
+## Takeaways
+
+- Data bias exists — even in how questions are asked.
+- Visualizing distributions reveals more than simple averages.
+- Storytelling makes insights memorable.
+
+---
+
+## Credits
+
+Written by Ástríður María Þorsteinsdóttir 
+02806 Social Data & Viz — Spring 2025
