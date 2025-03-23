@@ -83,7 +83,7 @@ code, pre {
   color: #eee;
 }
 
-/* Completely reset Minima header styling */
+/* HEADER */
 .site-header {
   background: none !important;
   background-color: #000 !important;
@@ -92,21 +92,60 @@ code, pre {
   box-shadow: none !important;
 }
 
-/* Make sure nav and title text are white */
-.site-title,
-.site-title a,
-.site-nav a {
+/* FOOTER */
+.site-footer {
+  background: none !important;
+  background-color: #000 !important;
   color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-/* Optional: remove underline on links */
+/* Header/Footer text and links */
+.site-title,
 .site-title a,
-.site-nav a {
+.site-nav a,
+.footer-col-wrapper a {
+  color: #fff !important;
   text-decoration: none;
 }
 
-/* Yellow hover for contrast */
+/* Hover color */
 .site-nav a:hover,
-.site-title a:hover {
+.site-title a:hover,
+.footer-col-wrapper a:hover {
   color: #ffd700 !important;
+}
+
+
+/* Make HTL and nav links white by default */
+.site-title,
+.site-title a,
+.site-nav a,
+.footer-col-wrapper a {
+  color: #fff !important;
+  text-decoration: none !important; /* removes underline under HTL */
+}
+
+/* Hover: turn nav + title + footer links yellow */
+.site-title a:hover,
+.site-nav a:hover,
+.footer-col-wrapper a:hover {
+  color: #ffd700 !important;
+}
+
+/* Make post links yellow */
+h1.post-title a,
+h2.post-title a,
+.post-content a,
+.post-list a {
+  color: #ffd700 !important;
+  text-decoration: none;
+}
+
+/* Optional: yellow hover for post links */
+.post-list a:hover,
+.post-content a:hover {
+  color: #ffcc00 !important;
+  text-decoration: underline;
 }
