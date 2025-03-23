@@ -83,28 +83,30 @@ code, pre {
   color: #eee;
 }
 
-/* Force header + footer to solid black */
-.site-header,
-.site-footer {
-  background: #000 !important;  /* kills any gradient */
+/* Completely reset Minima header styling */
+.site-header {
+  background: none !important;
+  background-color: #000 !important;
   color: #fff !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
-/* White title + nav links */
+/* Make sure nav and title text are white */
 .site-title,
 .site-title a,
-.site-nav a,
-.footer-col-wrapper a {
+.site-nav a {
   color: #fff !important;
-  text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-/* Yellow hover effect */
+/* Optional: remove underline on links */
+.site-title a,
+.site-nav a {
+  text-decoration: none;
+}
+
+/* Yellow hover for contrast */
 .site-nav a:hover,
-.footer-col-wrapper a:hover,
 .site-title a:hover {
   color: #ffd700 !important;
-  text-decoration: underline;
 }
