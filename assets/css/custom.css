@@ -1,0 +1,41 @@
+.magazine-article {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Georgia', serif;
+    line-height: 1.7;
+    color: #eee;
+  }
+  
+  .magazine-article h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .magazine-article .lede {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+  }
+  
+  .magazine-article img {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  .magazine-article blockquote {
+    font-style: italic;
+    color: #ccc;
+    border-left: 4px solid #888;
+    padding-left: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .article-footer {
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #333;
+    margin-top: 3rem;
+    padding-top: 1rem;
+  }
