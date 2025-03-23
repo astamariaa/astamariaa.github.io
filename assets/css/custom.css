@@ -149,3 +149,18 @@ h2.post-title a,
   color: #ffcc00 !important;
   text-decoration: underline;
 }
+
+.site-footer {
+  background: none !important; /* removes gradient */
+  background-color: #000 !important; /* true black */
+  color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Also apply to the wrapper inside the footer if needed */
+.footer-col-wrapper {
+  background: none !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
