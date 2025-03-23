@@ -15,7 +15,7 @@
   .lede {
     font-size: 1.2rem;
     font-style: italic;
-    color: #ccc;
+    color: #666;
     margin-bottom: 1.5rem;
   }
   
@@ -29,4 +29,8 @@
     font-style: italic;
     color: #888;
     margin-bottom: 2rem;
+  }
+  
+  .feed-subscribe {
+    display: none !important;
   }
