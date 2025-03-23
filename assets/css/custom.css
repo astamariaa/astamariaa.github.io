@@ -35,8 +35,10 @@
     display: none !important;
   }
 
-  .column * {
-    text-align: justify;
-    hyphens: auto;
-    word-spacing: 0.05em;
-  }
+.post-content p,
+.post-content li,
+.post-content blockquote {
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: 0.05em;
+}
