@@ -52,4 +52,34 @@
   object-fit: cover;
 }
 
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+a {
+  color: #4eaaff;
+}
+
+a:visited {
+  color: #b678ff;
+}
+
+.site-header, .site-footer {
+  background-color: #111;
+  color: #ccc;
+}
+
+.wrapper {
+  background-color: transparent;
+}
+
+code, pre {
+  background-color: #222;
+  color: #eee;
+}
 
