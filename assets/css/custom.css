@@ -83,3 +83,27 @@ code, pre {
   color: #eee;
 }
 
+/* Force header + footer to pure black */
+.site-header,
+.site-footer {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: none;
+}
+
+/* Make header text (site title + nav) white */
+.site-title,
+.site-title a,
+.site-nav a {
+  color: #fff !important;
+}
+
+/* Optional: nav hover color */
+.site-nav a:hover {
+  color: #4eaaff;
+}
+
+/* Footer links */
+.footer-col-wrapper a {
+  color: #fff;
+}
