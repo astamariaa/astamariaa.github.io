@@ -34,7 +34,7 @@ categories: jekyll update
       The map below visualizes theft density across San Francisco using a grid heatmap. Unsurprisingly, the city’s dense commercial districts — particularly Union Square and SoMa — are where the intensity peaks.
     </p>
 
-    <img src="/assets/img/theft_map.png" alt="Theft grid heatmap over San Francisco">
+   <iframe src="/assets/html/theft_map.html" width="100%" height="600px" style="border:none;"></iframe>
     <p class="caption">Fig. 2. Grid-based heatmap of thefts (2003–2025), capped at 98th percentile. Darker cells indicate higher incident concentration.</p>
 
     <p>
