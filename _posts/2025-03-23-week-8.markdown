@@ -4,39 +4,58 @@ title:  "Week 8 Assignment"
 date:   2025-03-23 17:22:57 +0100
 categories: jekyll update
 ---
+<div class="magazine-layout">
+  <div class="column left">
+    <h1>Shifting Shadows: How Crime in San Francisco Has Changed Over Time</h1>
+    <p class="lede">
+      A data-driven look at how crime patterns have evolved in San Francisco over the past decade.
+    </p>
 
-# The Hidden Truth in the Numbers
+    <h2>Understanding the Data</h2>
+    <p>
+      This story explores trends in crime across San Francisco using real data from the city's official SF Crime Dataset. 
+      The data covers incidents reported to the SFPD from 2010–2020, including type, location, and time of each crime. 
+      We removed duplicates, filtered incomplete records, and excluded prostitution-related incidents, which we examined in prior coursework.
+    </p>
 
-> *A dive into social data and the patterns beneath the surface.*
+    <h2>Crime Trends Over Time</h2>
+    <p>
+      The figure below shows how reported crimes changed over the years. We see spikes in certain categories, 
+      possible effects of policy changes, and gradual shifts in types of reported offenses.
+    </p>
+    <img src="/assets/img/sf-crime-timeseries.png" alt="Time series chart of SF crime trends">
+    <p class="caption">Fig. 1. Reported crimes in SF from 2010 to 2020 by category.</p>
 
-![Banner image](/assets/img/magazine-header.jpg)
+    <h2>Where Crime Happens</h2>
+    <p>
+      Crime is not evenly distributed. The map below highlights the most affected areas. 
+      Downtown and parts of the Mission district show consistently high incident counts.
+    </p>
+    <img src="/assets/img/sf-crime-map.png" alt="Map of San Francisco with crime heatmap overlay">
+    <p class="caption">Fig. 2. Geographic concentration of crime in SF neighborhoods (2010–2020).</p>
+  </div>
 
-In Spring 2025, our class explored social data visualization through real-world datasets. This article looks at the surprising trends that emerged from our latest analysis...
+  <div class="column right">
+    <h2>Dig Into the Data</h2>
+    <p>
+      The interactive chart below lets you explore crime types by year. 
+      Hover or click to view category breakdowns and filter by neighborhood.
+    </p>
+    <iframe src="/assets/bokeh/sf-crime-interactive.html" width="100%" height="500" frameborder="0"></iframe>
+    <p class="caption">Fig. 3. Interactive Bokeh visualization of SF crime trends by neighborhood and year.</p>
 
----
+    <h2>Takeaways</h2>
+    <ul>
+      <li>Property crimes dominate most neighborhoods, but violent crime is concentrated in specific areas.</li>
+      <li>Crime rates dropped in 2020, possibly due to pandemic lockdowns.</li>
+      <li>Interactive tools help uncover localized trends and disparities.</li>
+    </ul>
 
-## The Data Speaks
-
-We used Python and Flourish to break down survey data from local communities. One trend immediately jumped out...
-
-> “You can’t manage what you don’t measure.”  
-> — *Peter Drucker*
-
-## Key Visualization
-
-<iframe src="https://flo.uri.sh/your-chart-id/embed" width="100%" height="600" frameborder="0"></iframe>
-
----
-
-## Takeaways
-
-- Data bias exists — even in how questions are asked.
-- Visualizing distributions reveals more than simple averages.
-- Storytelling makes insights memorable.
-
----
-
-## Credits
-
-Written by Ástríður María Þorsteinsdóttir 
-02806 Social Data & Viz — Spring 2025
+    <h2>Credits</h2>
+    <p>
+      Story and visualizations by [Your Name],  
+      for 02806 Social Data Analysis & Visualization, Spring 2025  
+      Data Source: [SF Open Data Portal](https://data.sfgov.org/)
+    </p>
+  </div>
+</div>
