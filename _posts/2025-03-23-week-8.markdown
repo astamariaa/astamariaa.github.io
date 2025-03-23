@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Week 8 Assignment"
+date:   2025-03-23 17:22:57 +0100
+categories: jekyll update
+---
+Hello world
+Hello week 8
