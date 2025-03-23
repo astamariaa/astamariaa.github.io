@@ -9,5 +9,11 @@ layout: home
   <img src="/assets/img/hero.jpg" alt="Banner" />
 </div>
 
-Hey there! I’m working on a bunch of cool stuff for **02806 Social Data Analysis and Visualization**
-Here you'll find interactive data stories, visual breakdowns, and fun explorations of real-world datasets. 📊
+Welcome to this page.
+In accordance with Lumon Industries standards, this space contains projects focused on data and visualization.
+
+Each item presented has been prepared with diligence, clarity, and unwavering adherence to approved protocol.
+Exploration is permitted. Enjoyment is optional.
+
+Your presence has been noted.
+Praise Kier.
