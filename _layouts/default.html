@@ -1,23 +1,31 @@
----
-layout: null
----
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include head.html %}
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
   <body>
-    {% include header.html %}
+    <header class="site-header" role="banner">
+      <div class="header-logo">
+        <img src="{{ '/assets/img/helly.avif' | relative_url }}" alt="Header Logo">
+      </div>
+      {% include header.html %}
+    </header>
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
-    {% include footer.html %}
+
+    <footer class="site-footer">
+      <div class="footer-image">
+        <img src="{{ '/assets/img/footer_image.png' | relative_url }}" alt="Footer Image">
+      </div>
+      {% include footer.html %}
+    </footer>
   </body>
 </html>
