@@ -83,27 +83,28 @@ code, pre {
   color: #eee;
 }
 
-/* Force header + footer to pure black */
+/* Force header + footer to solid black */
 .site-header,
 .site-footer {
-  background-color: #000 !important;
+  background: #000 !important;  /* kills any gradient */
   color: #fff !important;
-  border: none;
+  border: none !important;
 }
 
-/* Make header text (site title + nav) white */
+/* White title + nav links */
 .site-title,
 .site-title a,
-.site-nav a {
-  color: #fff !important;
-}
-
-/* Optional: nav hover color */
-.site-nav a:hover {
-  color: #4eaaff;
-}
-
-/* Footer links */
+.site-nav a,
 .footer-col-wrapper a {
-  color: #fff;
+  color: #fff !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Yellow hover effect */
+.site-nav a:hover,
+.footer-col-wrapper a:hover,
+.site-title a:hover {
+  color: #ffd700 !important;
+  text-decoration: underline;
 }
