@@ -21,7 +21,10 @@
 title: HTL
 email: astamariaath@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    A fun little site for my Social Data Analysis and Visualization class 🥰. It's where I'm sharing super cool projects, data insights, and visualizations I've worked on this semester😇.
+    This site serves as an output archive for the Department of Social Data Analysis and Visualization, under the oversight of Lumon Industries.
+
+Contained within are authorized projects, curated data insights, and approved visual outputs developed over the current operational semester.
+All materials comply with departmental standards and have been prepared with appropriate reverence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
