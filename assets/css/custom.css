@@ -35,7 +35,7 @@
     display: none !important;
   }
 
-  .column p {
+  .column * {
     text-align: justify;
     hyphens: auto;
     word-spacing: 0.05em;
