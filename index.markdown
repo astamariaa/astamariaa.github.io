@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-##  Projects
-[Week 8: Crime in San Francisco →](/projects/week8.html)
