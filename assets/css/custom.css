@@ -175,3 +175,21 @@ h2.post-title a,
   margin: 1rem auto;
   display: block;
 }
+/* Header layout fix */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+/* Style for logo image */
+.header-logo img {
+  max-height: 40px;
+  margin-right: 1rem;
+}
+
+/* Optional: space between logo and text nav */
+.site-title {
+  margin-left: 1rem;
+}
