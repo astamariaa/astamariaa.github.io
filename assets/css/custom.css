@@ -164,4 +164,6 @@ h2.post-title a,
   background-color: transparent !important;
   color: #fff !important;
 }
+.feed-subscribe {
+  display: none !important;
 }
