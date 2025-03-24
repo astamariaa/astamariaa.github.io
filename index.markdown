@@ -6,7 +6,7 @@ layout: home
 ---
 
 <div class="hero-banner">
-  <img src="/assets/img/hero.jpg" alt="Banner" />
+  <img src="/assets/img/theo.jpg" alt="Banner" />
 </div>
 
 Welcome to this page.
