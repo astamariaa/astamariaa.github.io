@@ -54,13 +54,13 @@ categories: jekyll update
     </p>
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <iframe 
-    src="/assets/html/theft_counts_by_district.html" 
-    width="100%" 
-    height="600px" 
-    style="border: none;">
-  </iframe>
-  <p class="caption">Fig. 3. bla og ble.</p>
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe 
+      src="/assets/html/graf3.html" 
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+  </div>
+  <p class="caption">Fig. 3. Interactive theft counts by district. Hover to explore changes over time.</p>
 </div>
 
 
