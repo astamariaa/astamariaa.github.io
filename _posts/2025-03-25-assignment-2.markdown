@@ -63,6 +63,8 @@ categories: jekyll update
   <p class="figure-caption"><em>Fig. X. Yearly theft counts by district. Hover to explore values.</em></p>
 </div>
 
+<iframe src="/assets/html/graf3.html" width="400" height="300" style="border: none;"></iframe>
+
 
     <!-- Placeholder -->
     <div style="border: 2px dashed #ccc; padding: 2rem; text-align: center;">
