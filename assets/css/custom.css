@@ -176,7 +176,3 @@ h2.post-title a,
   margin-top: 0.2rem;    /* Reduce space above subtitle */
   margin-bottom: 1rem;   /* Space before the next content */
 }
-
-.post-date {
-  margin-bottom: 0.2rem;
-}
