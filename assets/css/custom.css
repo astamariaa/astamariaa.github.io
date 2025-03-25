@@ -167,9 +167,16 @@ h2.post-title a,
 .feed-subscribe {
   display: none !important;
 }
+
 .post-subtitle {
-  font-size: 1.2rem;
   font-style: italic;
-  margin-top: -0.5rem;
-  color: #ccc; /* or any color that fits your theme */
+  color: #c8bcbc;
+  font-size: 1.1rem;
+
+  margin-top: 0.2rem;    /* Reduce space above subtitle */
+  margin-bottom: 1rem;   /* Space before the next content */
+}
+
+.post-date {
+  margin-bottom: 0.2rem;
 }
