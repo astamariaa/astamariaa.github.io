@@ -176,3 +176,8 @@ h2.post-title a,
   margin-top: 0.2rem;    /* Reduce space above subtitle */
   margin-bottom: 1rem;   /* Space before the next content */
 }
+
+.column iframe {
+  max-width: 100%;
+  height: auto;
+}
