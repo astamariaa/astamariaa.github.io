@@ -53,10 +53,12 @@ categories: jekyll update
       The interactive chart below lets you filter theft by time and location. This tool reveals interesting trends — like seasonal spikes during the holiday shopping season, or the drop in crime during COVID lockdowns in 2020–2021.
     </p>
 
-<div style="position: relative; width: 100%; padding-bottom: 65%; height: 0; overflow: hidden;">
+<div style="max-width: 100%; overflow-x: auto;">
   <iframe 
-    src="/assets/html/graf3.html"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    src="/assets/html/graf3.html" 
+    width="1000" 
+    height="500" 
+    style="border: none; display: block; margin: auto;">
   </iframe>
 </div>
 
