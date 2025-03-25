@@ -55,10 +55,12 @@ categories: jekyll update
 
 <div style="width: 100%; overflow-x: hidden;">
   <div style="transform: scale(0.7); transform-origin: top left; width: 680px; height: 360px;">
-    <iframe 
-      src="/assets/html/graf3.html" 
-      style="width: 100%; height: 500px; border: none;">
-    </iframe>
+    <iframe
+    src="/assets/html/graf3.html"
+    class="responsive-iframe"
+    scrolling="no"
+    frameborder="0"
+  ></iframe>
   </div>
   <p class="caption">Fig. 3. Yearly theft counts by district</p>
 </div>
