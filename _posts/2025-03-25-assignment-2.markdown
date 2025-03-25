@@ -54,7 +54,7 @@ categories: jekyll update
     </p>
 
 <div style="width: 100%; overflow-x: auto;">
-  <div style="transform: scale(0.7); transform-origin: top left; width: inherit; height: 360px;">
+  <div style="transform: scale(0.7); transform-origin: top left; width: 500px; height: 360px;">
     <iframe 
       src="/assets/html/graf3.html" 
       style="width: 100%; height: 500px; border: none;"
