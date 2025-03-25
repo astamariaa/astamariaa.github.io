@@ -53,6 +53,9 @@ categories: jekyll update
       The interactive chart below lets you filter theft by time and location. This tool reveals interesting trends — like seasonal spikes during the holiday shopping season, or the drop in crime during COVID lockdowns in 2020–2021.
     </p>
 
+   <iframe src="/assets/html/theft_counts_by_district.html" width="100%" height="600px" style="border:none;"></iframe>
+    <p class="caption">Fig. 2. Grid-based heatmap of thefts (2003–2025), capped at 98th percentile. Darker cells indicate higher incident concentration.</p>
+
     <!-- Placeholder -->
     <div style="border: 2px dashed #ccc; padding: 2rem; text-align: center;">
       <em>[Interactive Bokeh visualization will be embedded here]</em>
