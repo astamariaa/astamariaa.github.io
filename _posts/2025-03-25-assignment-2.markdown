@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Assignment 2"
+subtitle: "by Áslaug Marta (s), Ástríður María (s242976), Soffía Steingrímsdóttir (s)"
 date:   2025-03-25 09:50:57 +0100
 categories: jekyll update
 ---
