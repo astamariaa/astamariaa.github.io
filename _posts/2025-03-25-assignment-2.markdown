@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Assignment 2"
-subtitle: "by Áslaug Marta (s), Ástríður María (s242976), Soffía Steingrímsdóttir (s)"
+subtitle: "by Áslaug Marta (s232721), Ástríður María (s242976), Soffía Steingrímsdóttir (s242691)"
 date:   2025-03-25 09:50:57 +0100
 categories: jekyll update
 ---
@@ -57,7 +57,7 @@ categories: jekyll update
       >
     </iframe>
   </div>
-  <p class="caption">Fig. 3. Yearly theft counts by district</p>
+  <p class="caption">Fig. 3. Yearly Larceny/Theft incidents by district (2003–2025), with higher rates in tourist areas and a drop during 2020–2021 due to COVID-19.</p>
 </div>
 
     <h2>Looking beyond the data</h2>

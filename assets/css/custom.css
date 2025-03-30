@@ -177,7 +177,7 @@ h2.post-title a,
   margin-bottom: 1rem;   /* Space before the next content */
 }
 
-.column iframe {
+.column.right iframe {
   max-width: 100%;
-  height: auto;
+  height: 400px;
 }
