@@ -41,3 +41,4 @@ We'll showcase:
 - Empower users to **make sense of their personal music data**
 - Explore **interaction design** and storytelling
 - Build a reusable framework for future data-driven personal reports
+
