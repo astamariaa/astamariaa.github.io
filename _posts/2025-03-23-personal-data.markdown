@@ -1,44 +1,66 @@
 ---
 layout: post
-title:  "02808 Personal Data Interaction"
+title:  "Your Spotify Listening Dashboard"
+subtitle: "Explore your personal listening history"
 date:   2025-04-02 12:00:57 +0100
 categories: jekyll update
 ---
 
-## Introduction
+## Welcome 🎧
 
-Digital platforms are increasingly affecting our daily experiences, and users want the ability to interact with their data. 
+This dashboard lets you explore your **Spotify listening behavior** using interactive charts and custom insights.
 
-In this project, we explore how **personal data interactions** can be enhanced by allowing users to explore their **music listening history** inside a web interface.
-
-Our system provides a more **customizable version of Spotify Wrapped** — where the user is not just a passive observer but an active explorer.
+Just like Spotify Wrapped — but **more flexible, more personal, and always available.**
 
 ---
 
-## Interactive Visuals 🎧
+## 📊 Overview
 
-We'll showcase:
-
-- Listening trends over time  
-- Genre evolution  
-- Artist diversity  
-- Mood patterns  
-- Interactive filters (day, time, skip rate, etc.)
-
----
-
-## Placeholder Visualization
-
-<figure>
-  <img src="/assets/img/placeholder-graph.jpg" alt="Placeholder for future visualization">
-  <figcaption class="caption">Fig. 1. Example graph — user listening behavior over time</figcaption>
-</figure>
+- **Total Minutes Listened**
+- **Top Genres**
+- **Most Played Artists**
+- **Listening Time by Day**
+- **Skip Rates**
+- **Mood Trends (tempo, danceability, valence)**
 
 ---
 
-## Goals
+## 🔁 Your Listening Trends
 
-- Empower users to **make sense of their personal music data**
-- Explore **interaction design** and storytelling
-- Build a reusable framework for future data-driven personal reports
+<!-- Placeholder for interactive HTML or iframe -->
+<div style="width: 100%; max-width: 720px; margin: 0 auto;">
+  <iframe 
+    src="/assets/html/overview_plot.html"
+    style="width: 100%; height: 500px; border: none;">
+  </iframe>
+  <p class="caption">Fig. 1. Your monthly listening activity</p>
+</div>
+
+---
+
+## 🎨 Top Artists Over Time
+
+<!-- Another chart placeholder -->
+<div style="width: 100%; max-width: 720px; margin: 0 auto;">
+  <iframe 
+    src="/assets/html/top_artists.html"
+    style="width: 100%; height: 500px; border: none;">
+  </iframe>
+  <p class="caption">Fig. 2. Your top artists — evolving across months</p>
+</div>
+
+---
+
+## 🔍 Filter & Explore
+
+More interactive tools coming soon:
+- Filter by year or season
+- Explore by mood/energy
+- Discover habits you didn't notice
+
+---
+
+## 📥 About Your Data
+
+We use your exported Spotify history or last.fm data to build these insights. Nothing is shared or stored — it all runs client-side inside this dashboard.
 
