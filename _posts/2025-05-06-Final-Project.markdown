@@ -11,9 +11,9 @@ categories: jekyll update
 <div class="magazine-layout">
   <!-- LEFT COLUMN -->
   <div class="column left">
-    <h1>San Francisco Crime data 2003-2025.</h1>
+    <h1>Premier League data 2019-2024.</h1>
     <p class="lede">
-      In this workbook the crime data from 2003 to 2025 will be examined. The crime that will be focused on and explored is Larceny/Theft. 
+      In this workbook the pl data from 2019 to 2024 will be examined.
     </p>
 
     <h2>Introduction</h2>
