@@ -25,8 +25,11 @@ We want to explore football attendance to help us get an understanding of the im
 
   <h2>The teams</h2>
     <p>
-    blalbla
-    </p>
+    There are 20 teams in the Premier League. Each year, the bottom three teams of the league relegated and as well three teams are promoted to the league. For the past 5 seasons, 28 teams have played in the league.
+
+BÆTA VIÐ MEIRA
+
+  </p>
 
     <img src="/assets/img/total_crimes.jpg" alt="Total crime occurrences by category">
     <p class="caption">Fig. 1. Total reported crime by type (2003–2025). Larceny/Theft vastly outnumbers other categories.</p>
@@ -43,7 +46,7 @@ We want to explore football attendance to help us get an understanding of the im
     <p>
       Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000. However it was quite interesting to see that if we look at the average stadium fill percentage, the Manchester United only fills their stadium about 75% on average. Eight out of the top ten clubs are considered relatively small, with Brentford at the top with on average 98.7% stadium fill at their games. Of course many of these clubs have smaller stadiums which are easier to fill, for example the capacity at Brentfords home stadium is approx 17.000 seats, but this reflects a loyal local fanbase to the smaller clubs which are outperforming the larger ones with efficiency. The high average attendance mostly reflects on the clubs size but the high fill percentage reflects on fan enthusiasm and sell-out consistency.  Here you can also see a heatmap of the where the stadiums are marked as dots. By clicking the dots, you are able to see the stadium name along with the average stadium fill percentage. 
     </p>
-    
+
  </div>
 
   <!-- RIGHT COLUMN -->
