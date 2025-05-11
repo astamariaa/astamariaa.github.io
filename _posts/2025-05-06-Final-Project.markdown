@@ -54,7 +54,14 @@ BÆTA VIÐ MEIRA
 
  <div style="width: 100%; overflow-x: auto;">
   <div style="transform: scale(0.7); transform-origin: top left; width: 500px; height: 360px;">
-
+    <iframe 
+      src="/assets/html/graf3.html" 
+      style="width: 100%; height: 500px; border: none;"
+      >
+    </iframe>
+  </div>
+  <p class="caption">Fig. 3. Yearly Larceny/Theft incidents by district (2003–2025), with higher rates in tourist areas and a drop during 2020–2021 due to COVID-19.</p>
+</div>
 
   <h2>Timing of games - attendance by time and day</h2>
     <p>
