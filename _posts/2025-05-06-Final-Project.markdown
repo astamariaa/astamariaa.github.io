@@ -50,7 +50,11 @@ BÆTA VIÐ MEIRA
 
   <!-- RIGHT COLUMN -->
   <div class="column right">
-</div>
+
+
+ <div style="width: 100%; overflow-x: auto;">
+  <div style="transform: scale(0.7); transform-origin: top left; width: 500px; height: 360px;">
+
 
   <h2>Timing of games - attendance by time and day</h2>
     <p>
