@@ -37,8 +37,8 @@ BÆTA VIÐ MEIRA
     The most logical thing is to start our analysis on the data was to begin with examining the stadiums of the teams. We began with comparing the average attendance of all games in the league by seasons. It is clear to see that obviously the Covid-19 pandemic restrictions affected the attendance to the games significantly. However it is interesting to see that after the pandemic, attendance has increased by approximately 10.000 persons per game, peaking in 2023. 
     </p>
 
-  <img src="/assets/img/avgattendance.jpg" alt="__">
-  <p class="caption">Fig. 1. ____ .</p>
+  <img src="assets/img/avgattendance.png" alt="Average attendance chart">
+  <p class="caption">Fig. 1. Average attendance by year.</p>
 
    
  
