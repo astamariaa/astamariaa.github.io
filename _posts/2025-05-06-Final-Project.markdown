@@ -83,11 +83,17 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   <p>
      The 3pm blackout was established in the 1960’s UK football and refers to a long-standing rule that no football matches in any league can be broadcasted live on TV in the UK between 2:45pm and 5:15pm on Saturdays. The reason behind this rule was due to the fact that it was feared that televised top-tier games, such as Premier League games,  would reduce attendance to local teams in lower leagues if fans stayed home to watch on TV instead.  We decided to examin the games that are during this blackout period further.  It is clear to see that the attendance of the games during the blackout is significantly better then to the other games as you can see on this simple bar graph. 
   </p>
+
+  <img src="/assets/img/mynd6.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption">Fig. 7. ___.</p>
   
 <p>
     From the chart here down below you can see that the smaller clubs play more often during the blackout period, this is likely due to the fact that those games are moved to the traditional kickoff time at 3pm on Saturdays since they have lower media prioritization and less broadcast demand. 
 Then it of course makes sense that the teams that are the least affected by the blackout are the biggest clubs in the league, as their matches are frequently picked for live broadcast due to large followings and high viewership demand.
 </p>
+
+  <img src="/assets/img/mynd7.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption">Fig. 7. ___.</p>
 
 <p>
 If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month almost each season. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
@@ -95,9 +101,12 @@ If we examine the data further, we see that relatively few games were played in 
 There were also more games played in August and October that season, likely due to the fact that the World Cup was held in November and December that year. Therefore some of  the games had to be shifted to earlier. 
 </p>
 
+  <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption">Fig. 7. ___.</p>
 
 
- <h2>Finally lets examine the result of the games</h2>
+
+ <h2>Results of the games</h2>
     <p>
       From this graph we can see that Manchester United has the overall most wins, both at home and away. At the same time do  West Brom, Luton, and Norwich have the fewest wins overall.  We were debating if indeed it mattered for the team's performance if the game was played at their home stadium or away. It is clear from the graph that it does in fact matter, since all the teams perform better at their home games than away. This show how important it is to the clubs to have a strong fan base. Clubs like Brentford, Crystal Palace, and West Ham show noticeable home-away gaps, suggesting a strong home advantage and rely heavily on their fans. 
     </p>
@@ -106,18 +115,29 @@ There were also more games played in August and October that season, likely due 
     On the heatmap below you can find all the stadiums and the the ratio between home, away and draws on that stadium. 
  </p>
 
+   <iframe src="/assets/html/mynd9.html" width="100%" height="600px" style="border:none;"></iframe>
+  <p class="caption">Fig. X. Interactive map showing average stadium fill percentage.</p>
 
 
- <h2>Does higher xG (expected goals) attract more attendance?</h2>
+
+
+ <h2>Does higher xG attract more attendance?</h2>
     <p>
       As average home xG increases, average attendance generally rises. Fans are more likely to show up for teams that create more chances. However, the relationship between those two variables is not necessarily causal.  Bigger crowds may correlate with stronger clubs that naturally have higher xG due to having more money and therefore better players.
 Then there are the outliers, for example Manchester United and Westham that have lower xG’s but still attract big crowds, due to big club royalty among the fans. 
     </p>
 
+  <img src="/assets/img/mynd10.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption">Fig. 11. ___.</p>
+
   <h2>Final thoughts</h2>
     <p>
-      BLA
-    </p>
+      Through this comprehensive analysis of Premier League data, we gained valuable insights into the relationships between team performance, fan engagement, and scheduling dynamics. One of the most consistent patterns was the significant advantage of playing at home, with nearly all clubs showing notably higher home win counts than away. This proves the importance of the fans' support for the teams. 
+We also discovered that stadium attendance and fill rates don’t always align with on-pitch success, that sunday afternoon fixtures are the most popular amongst the fans and that the 3 pm blackout does in fact enhance the stadium attendance. 
+The correlation between xG and attendance showed that fans are indeed drawn to exciting, high scoring teams, but at the same time do teams with long history, tradition, and large stadium capacity often override pure performance.
+Overall, this analysis has deepened our interest in the Premier League. It highlights how both on-field success and off-field factors shape the world of modern football.
+
+   </p>
 
   <h2>Contribution</h2>
     <p>
