@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Kickoff to Final Whistle: Exploring Factors Influencing Stadium Attendance"
-subtitle: "Project Assignment B: The Viz and the Notebook - 02806 Social Data Analysis and Visualization. Workbook by Áslaug Marta (s232721), Ástríður María (s242976), Soffía Steingrímsdóttir (s242691)"
+subtitle: "Project Assignment B: The Viz and the Notebook - 02806 Social Data Analysis and Visualization. Workbook by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)"
 date:   2025-05-06 09:50:57 +0100
 categories: jekyll update
 ---
@@ -36,8 +36,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption">Fig. 1. Average Attendance.</p>
-
+  <p class="caption"><strong>Fig. 1.</strong> Average Attendance per Season — This line chart shows how average attendance at Premier League matches evolved from 2018/2019 to 2023/2024. The dramatic drop in 2020/2021 reflects COVID-19 restrictions, where many matches were played without fans. Attendance rebounded strongly in the following seasons.</p>
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
     <p>
@@ -45,14 +44,13 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption">Fig. 2. ___.</p>
+  <p class="caption"><strong>Fig. 2.</strong> Top 10 Stadiums by Average Attendance — This horizontal bar chart shows which stadiums have drawn the most fans on average across all seasons. Manchester United’s Old Trafford tops the list, followed by St James’ Park and the Emirates Stadium, reflecting both capacity and strong local support.</p>
 
   <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption">Fig. 2. ___.</p>
+<p class="caption"><strong>Fig. 3.</strong> Average Stadium Fill Percentage by Club — This chart shows how full each stadium is on average, reflecting fan loyalty and demand relative to capacity. Brentford leads the list with nearly 100% average occupancy, while larger clubs like Manchester United and Arsenal also boast strong figures. West Brom lags significantly behind.</p>
 
   <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
-  <p class="caption">Fig. X. Interactive map showing average stadium fill percentage.</p>
-
+<p class="caption"><strong>Fig. 4.</strong> Stadium Fill Rates Across England — This interactive map displays the average stadium fill percentage geographically. Darker shades represent higher fill rates, while circle size corresponds to overall fan attendance. The cluster around London reveals multiple high-capacity clubs with strong turnout, but high fill rates also appear in smaller, regionally passionate clubs.</p>
 
   <h2>Timing of games - attendance by time and day</h2>
     <p>
@@ -60,7 +58,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption">Fig. 2. ___.</p>
+  <p class="caption"><strong>Fig. 5.</strong> Average Attendance by Day and Kickoff Time — This heatmap shows that Sunday late-afternoon and Thursday evening matches tend to draw the largest crowds. Interestingly, Saturday 15:00 matches, which are subject to UK television blackout restrictions, do not have the highest attendance figures. This suggests that broadcast availability might not directly correlate with crowd size.</p>
 
 <p>
 Here you can see a map of all the stadiums color coordinated by the most common timing of their games. 
@@ -87,8 +85,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   </p>
 
   <img src="/assets/img/mynd6.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption">Fig. 7. ___.</p>
-  
+<p class="caption"><strong>Fig. 7.</strong> The Impact of the 3PM Blackout Rule — This bar chart compares average stadium fill percentages for matches played during the traditional 3PM Saturday timeslot (which is not broadcast live in the UK) versus all other matches. Interestingly, 3PM Saturday games tend to have higher attendance, suggesting that the absence of TV coverage may encourage fans to attend in person.</p>  
 <p>
     From the chart here down below you can see that the smaller clubs play more often during the blackout period, this is likely due to the fact that those games are moved to the traditional kickoff time at 3pm on Saturdays since they have lower media prioritization and less broadcast demand. 
 Then it of course makes sense that the teams that are the least affected by the blackout are the biggest clubs in the league, as their matches are frequently picked for live broadcast due to large followings and high viewership demand.
