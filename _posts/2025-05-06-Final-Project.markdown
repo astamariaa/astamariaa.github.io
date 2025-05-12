@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Kickoff to Final Whistle: Exploring Factors Influencing Stadium Attendance"
-subtitle: "Project Assignment B: The Viz and the Notebook - 02806 Social Data Analysis and Visualization. Workbook by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)"
+subtitle: " 02806 Social Data Analysis and Visualization - Project Assignment B: The Viz and the Notebook. Workbook by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)"
 date:   2025-05-06 09:50:57 +0100
 categories: jekyll update
 ---
@@ -36,7 +36,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 1.</strong> Average Attendance per Season — This line chart shows how average attendance at Premier League matches evolved from 2018/2019 to 2023/2024. The dramatic drop in 2020/2021 reflects COVID-19 restrictions, where many matches were played without fans. Attendance rebounded strongly in the following seasons.</p>
+  <p class="caption"><strong>Fig. 1.</strong> Average attendance per Premier League season from 2018 to 2024.</p>
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
     <p>
@@ -44,10 +44,10 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 2.</strong> Top 10 Stadiums by Average Attendance — This horizontal bar chart shows which stadiums have drawn the most fans on average across all seasons. Manchester United’s Old Trafford tops the list, followed by St James’ Park and the Emirates Stadium, reflecting both capacity and strong local support.</p>
+  <p class="caption"><strong>Fig. 2.</strong> Top 10 Stadiums by Average Attendance.</p>
 
   <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 3.</strong> Average Stadium Fill Percentage by Club — This chart shows how full each stadium is on average, reflecting fan loyalty and demand relative to capacity. Brentford leads the list with nearly 100% average occupancy, while larger clubs like Manchester United and Arsenal also boast strong figures. West Brom lags significantly behind.</p>
+<p class="caption"><strong>Fig. 3.</strong> Average Stadium Fill Percentage by Club.</p>
 
   <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
   <p class="caption">Fig. 4. Interactive map showing average stadium fill percentage.</p>
@@ -59,14 +59,15 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 6:</strong> Average Attendance by Day and Kickoff Time.</p>
+<p class="caption"><strong>Figure 5:</strong>Heatmap showing average attendance by kickoff time and weekday.
+.</p>
 
 <p>
 Here you can see a map of all the stadiums color coordinated by the most common timing of their games. 
  </p>
 
    <iframe src="/assets/html/mtime" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Figure 6:</strong> Map of Premier League stadiums colored by their most common kickoff time. This visualization reveals regional patterns in scheduling, with some clusters (especially in London) favoring later start times, possibly influenced by broadcast priorities and travel considerations.</p>
+<p class="caption"><strong>Figure 6:</strong> Map showing each stadium’s most common kickoff time.</p>
 
 
  </div>
@@ -85,7 +86,8 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   </p>
 
   <img src="/assets/img/mynd6.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 7:</strong> Percentage of Home Matches Played During the 3PM Saturday Blackout — Smaller clubs such as Watford and Bournemouth have a larger share of matches affected by the blackout rule, likely due to lower media prioritization. In contrast, top clubs like Manchester United and Arsenal have fewer 3PM Saturday kickoffs, as their matches are more frequently selected for live TV coverage.</p>
+<p class="caption"><strong>Figure 7:</strong>Average stadium fill rate comparison: 3PM Saturday vs. other matches.
+</p>
   
 <p>
     From the chart here down below you can see that the smaller clubs play more often during the blackout period, this is likely due to the fact that those games are moved to the traditional kickoff time at 3pm on Saturdays since they have lower media prioritization and less broadcast demand. 
@@ -93,7 +95,8 @@ Then it of course makes sense that the teams that are the least affected by the 
 </p>
 
   <img src="/assets/img/mynd7.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 8:</strong> Number of Matches Played per Month (Aug–Jan) from 2019 to 2024 — December consistently shows the highest match volume, reflecting the English tradition of holiday football. Noticeably fewer matches occurred in September 2022 due to Queen Elizabeth II’s passing and game postponements. The 2022 World Cup also shifted matches earlier in the season, resulting in spikes during August and October.</p>
+<p class="caption"><strong>Figure 8:</strong>Club-level breakdown of how often each team plays during the 3PM blackout window.
+</p>
 
 <p>
 If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month almost each season. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
@@ -102,7 +105,8 @@ There were also more games played in August and October that season, likely due 
 </p>
 
   <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 9:</strong> Monthly Match Volume Across Seasons (Aug–Jan) — December consistently sees the highest match counts, highlighting England's festive football tradition. Notably, September 2022 saw a dip due to the passing of Queen Elizabeth II, and scheduling shifted earlier in the 2022 season to accommodate the winter World Cup.</p>
+<p class="caption"><strong>Figure 9:</strong>London stadiums colored by home win percentage (with W/D/L tooltips).
+</p>
 
 
 
@@ -116,7 +120,8 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd9.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Figure 10:</strong> Map of London stadiums shaded by home win percentage from 2018–2024. Hovering over each point reveals detailed home performance, including win, draw, and loss rates. Tottenham Hotspur Stadium stands out with one of the highest win rates, while clubs with lower win percentages are shown in lighter shades.</p>
+<p class="caption"><strong>Figure 10:</strong>Number of matches played per month (August–January) across seasons.
+.</p>
 
 
 
@@ -127,7 +132,8 @@ Then there are the outliers, for example Manchester United and Westham that have
     </p>
 
   <img src="/assets/img/mynd10.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 11:</strong> Scatterplot showing the relationship between average home xG (expected goals) and average home attendance. The positive regression line suggests that higher attacking performance (xG) is associated with larger home crowds, though several outliers indicate other factors (like club size or location) also influence attendance.</p>
+<p class="caption"><strong>Figure 11:</strong>Correlation between average xG and average home attendance.
+</p>
 
   <h2>Final thoughts</h2>
     <p>
