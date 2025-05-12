@@ -36,18 +36,27 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 1:</strong> Average attendance per Premier League season from 2018 to 2024.</p>
+  <p class="caption"><strong>Fig. 1:</strong> Average attendance per Premier League season from 2019 to 2024.</p>
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
     <p>
-      Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000. However it was quite interesting to see that if we look at the average stadium fill percentage, the Manchester United only fills their stadium about 75% on average. Eight out of the top ten clubs are considered relatively small, with Brentford at the top with on average 98.7% stadium fill at their games. Of course many of these clubs have smaller stadiums which are easier to fill, for example the capacity at Brentfords home stadium is approx 17.000 seats, but this reflects a loyal local fanbase to the smaller clubs which are outperforming the larger ones with efficiency. The high average attendance mostly reflects on the clubs size but the high fill percentage reflects on fan enthusiasm and sell-out consistency.  Here you can also see a heatmap of the where the stadiums are marked as dots. By clicking the dots, you are able to see the stadium name along with the average stadium fill percentage. 
+      Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000.
     </p>
 
-  <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 2:</strong> Top 10 Stadiums by Average Attendance.</p>
+       <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+  <p class="caption"><strong>Fig. 2:</strong> Top 10 Stadiums by Average Attendance.</p> 
 
+  <p> 
+      However it was quite interesting to see that if we look at the average stadium fill percentage, the Manchester United only fills their stadium about 75% on average. Eight out of the top ten clubs are considered relatively small, with Brentford at the top with on average 98.7% stadium fill at their games. Of course many of these clubs have smaller stadiums which are easier to fill, for example the capacity at Brentfords home stadium is approx 17.000 seats, but this reflects a loyal local fanbase to the smaller clubs which are outperforming the larger ones with efficiency. The high average attendance mostly reflects on the clubs size but the high fill percentage reflects on fan enthusiasm and sell-out consistency. 
+    </p>
+      
   <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
 <p class="caption"><strong>Fig. 3:</strong> Average Stadium Fill Percentage by Club.</p>
+
+   <p> 
+       Here you can also see a heatmap of the where the stadiums are marked as dots. By clicking the dots, you are able to see the stadium name along with the average stadium fill percentage. 
+   </p>
+
 
   <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
   <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
@@ -55,12 +64,18 @@ We want to explore football attendance to help us get an understanding of the im
 
   <h2>Timing of games - attendance by time and day</h2>
     <p>
-     We then examined the timing of the games - and if there were any noticeable patterns between the attendance of the games and the timing.  From the heatmap you can see that Thursday games at 17:30 have the highest attendance, with about 70.000 people. That however is likely based on fewer matches as Thursday fixtures are rare and mostly for special events like European reschedules. However Sundays have the highest overall attendance both for the 15:30 and 17:30 slots. The attendance is consistently high and the games at this time are frequent, making it the most reliably strong day overall attendance vice.
+     We then examined the timing of the games - and if there were any noticeable patterns between the attendance of the games and the timing. 
     </p>
-
+     
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
 <p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday.
 .</p>
+
+  <p>
+     From the heatmap you can see that Thursday games at 17:30 have the highest attendance, with about 70.000 people. That however is likely based on fewer matches as Thursday fixtures are rare and mostly for special events like European reschedules. However Sundays have the highest overall attendance both for the 15:30 and 17:30 slots. The attendance is consistently high and the games at this time are frequent, making it the most reliably strong day overall attendance vice.
+  </p>
+
+ 
 
 <p>
 Here you can see a map of all the stadiums color coordinated by the most common timing of their games. 
