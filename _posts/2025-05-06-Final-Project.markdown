@@ -36,7 +36,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 1.</strong> Average attendance per Premier League season from 2018 to 2024.</p>
+  <p class="caption"><strong>Fig. 1:</strong> Average attendance per Premier League season from 2018 to 2024.</p>
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
     <p>
@@ -44,13 +44,13 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 2.</strong> Top 10 Stadiums by Average Attendance.</p>
+  <p class="caption"><strong>Fig. 2:</strong> Top 10 Stadiums by Average Attendance.</p>
 
   <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 3.</strong> Average Stadium Fill Percentage by Club.</p>
+<p class="caption"><strong>Fig. 3:</strong> Average Stadium Fill Percentage by Club.</p>
 
   <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
-  <p class="caption">Fig. 4. Interactive map showing average stadium fill percentage.</p>
+  <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
 
 
   <h2>Timing of games - attendance by time and day</h2>
@@ -59,7 +59,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 5:</strong>Heatmap showing average attendance by kickoff time and weekday.
+<p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday.
 .</p>
 
 <p>
@@ -67,7 +67,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
  </p>
 
    <iframe src="/assets/html/mtime" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Figure 6:</strong> Map showing each stadium’s most common kickoff time.</p>
+<p class="caption"><strong>Fig. 6:</strong> Map showing each stadium’s most common kickoff time.</p>
 
 
  </div>
@@ -86,7 +86,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   </p>
 
   <img src="/assets/img/mynd6.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 7:</strong>Average stadium fill rate comparison: 3PM Saturday vs. other matches.
+<p class="caption"><strong>Fig. 7:</strong> Average stadium fill rate comparison: 3PM Saturday vs. other matches.
 </p>
   
 <p>
@@ -95,7 +95,7 @@ Then it of course makes sense that the teams that are the least affected by the 
 </p>
 
   <img src="/assets/img/mynd7.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 8:</strong>Club-level breakdown of how often each team plays during the 3PM blackout window.
+<p class="caption"><strong>Fig. 8:</strong> Club-level breakdown of how often each team plays during the 3PM blackout window.
 </p>
 
 <p>
@@ -105,7 +105,7 @@ There were also more games played in August and October that season, likely due 
 </p>
 
   <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 9:</strong>London stadiums colored by home win percentage (with W/D/L tooltips).
+<p class="caption"><strong>Fig. 9:</strong> Number of matches played per month (August–January) across seasons.
 </p>
 
 
@@ -120,7 +120,7 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd9.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Figure 10:</strong>Number of matches played per month (August–January) across seasons.
+<p class="caption"><strong>Fig. 10:</strong> London stadiums colored by home win percentage (with W/D/L tooltips).
 .</p>
 
 
@@ -132,7 +132,7 @@ Then there are the outliers, for example Manchester United and Westham that have
     </p>
 
   <img src="/assets/img/mynd10.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Figure 11:</strong>Correlation between average xG and average home attendance.
+<p class="caption"><strong>Fig. 11:</strong> Correlation between average xG and average home attendance.
 </p>
 
   <h2>Final thoughts</h2>
