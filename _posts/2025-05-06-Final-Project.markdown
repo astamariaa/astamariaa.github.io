@@ -25,9 +25,7 @@ We want to explore football attendance to help us get an understanding of the im
 
   <h2>The teams</h2>
     <p>
-    There are 20 teams in the Premier League. Each year, the bottom three teams of the league relegated and as well three teams are promoted to the league. For the past 5 seasons, 28 teams have played in the league.
-
-BÆTA VIÐ MEIRA
+    There are 20 teams in the Premier League. Each year, the bottom three teams of the league are relegated while three teams are promoted to take their place. For the past 5 seasons, 28 teams have played in the league.  Some teams like Liverpool, Manchester City and Manchester United have remained consistent participants in the Premier League, while others like Fulham and West Brom have moved in and out of the league. This turnover adds variety to the league and introduces differences between seasons in things like stadium capacities, fan culture and team performance dynamics. 
 
   </p>
 
@@ -36,6 +34,9 @@ BÆTA VIÐ MEIRA
     <p>
     The most logical thing is to start our analysis on the data was to begin with examining the stadiums of the teams. We began with comparing the average attendance of all games in the league by seasons. It is clear to see that obviously the Covid-19 pandemic restrictions affected the attendance to the games significantly. However it is interesting to see that after the pandemic, attendance has increased by approximately 10.000 persons per game, peaking in 2023. 
     </p>
+
+   <h2>Average Attendance per Season</h2>
+  <img src="mynd1.png" alt="Average Attendance Plot" style="width:80%; max-width:800px;">
 
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
