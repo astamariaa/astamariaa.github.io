@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Final Project - Premier League Attendance"
+title:  "From Kickoff to Final Whistle: Exploring Factors Influencing Stadium Attendance"
+subtitle: "Project Assignment B: The Viz and the Notebook - 02806 Social Data Analysis and Visualization"
 subtitle: "by Áslaug Marta (s232721), Ástríður María (s242976), Soffía Steingrímsdóttir (s242691)"
 date:   2025-05-06 09:50:57 +0100
 categories: jekyll update
