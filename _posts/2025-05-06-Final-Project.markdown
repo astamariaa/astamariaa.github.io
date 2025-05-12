@@ -35,8 +35,8 @@ We want to explore football attendance to help us get an understanding of the im
     The most logical thing is to start our analysis on the data was to begin with examining the stadiums of the teams. We began with comparing the average attendance of all games in the league by seasons. It is clear to see that obviously the Covid-19 pandemic restrictions affected the attendance to the games significantly. However it is interesting to see that after the pandemic, attendance has increased by approximately 10.000 persons per game, peaking in 2023. 
     </p>
 
-   <h2>Average Attendance per Season</h2>
-  <img src="mynd1.png" alt="Average Attendance Plot" style="width:80%; max-width:800px;">
+  <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:80%; max-width:800px;">
+  <p class="caption">Fig. 1. Average Attendance.</p>
 
  
  <h2>Average stadium attendance vs average stadium fill percentage</h2>
@@ -44,8 +44,15 @@ We want to explore football attendance to help us get an understanding of the im
       Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000. However it was quite interesting to see that if we look at the average stadium fill percentage, the Manchester United only fills their stadium about 75% on average. Eight out of the top ten clubs are considered relatively small, with Brentford at the top with on average 98.7% stadium fill at their games. Of course many of these clubs have smaller stadiums which are easier to fill, for example the capacity at Brentfords home stadium is approx 17.000 seats, but this reflects a loyal local fanbase to the smaller clubs which are outperforming the larger ones with efficiency. The high average attendance mostly reflects on the clubs size but the high fill percentage reflects on fan enthusiasm and sell-out consistency.  Here you can also see a heatmap of the where the stadiums are marked as dots. By clicking the dots, you are able to see the stadium name along with the average stadium fill percentage. 
     </p>
 
-    <img src="/assets/img/mynd2.jpg" alt="Total crime occurrences by category">
-    <p class="caption">Fig. 1. ____ .</p>
+  <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:80%; max-width:800px;">
+  <p class="caption">Fig. 2. ___.</p>
+
+  <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:80%; max-width:800px;">
+  <p class="caption">Fig. 2. ___.</p>
+
+  <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
+  <p class="caption">Fig. X. Interactive map showing average stadium fill percentage.</p>
+
 
  </div>
 

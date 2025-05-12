@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_98a3495e896476f20a24944fd34c7ab1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_98a3495e896476f20a24944fd34c7ab1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_98a3495e896476f20a24944fd34c7ab1 = L.map(
+                "map_98a3495e896476f20a24944fd34c7ab1",
+                {
+                    center: [52.8, -1.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6.5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62ae8977a986f5ffe2598b6e331dddb5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_62ae8977a986f5ffe2598b6e331dddb5.addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+            var circle_marker_3ed9f147125b88e07b57faea878e89dc = L.circleMarker(
+                [53.4308, -2.9608],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2160a9ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_709b8fd646d72fd526b9dd530b1075b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dff56cb3833c4cd97eee31770187e07d = $(`<div id="html_dff56cb3833c4cd97eee31770187e07d" style="width: 100.0%; height: 100.0%;">Anfield<br>Avg Fill: 73.8%</div>`)[0];
+                popup_709b8fd646d72fd526b9dd530b1075b2.setContent(html_dff56cb3833c4cd97eee31770187e07d);
+            
+        
+
+        circle_marker_3ed9f147125b88e07b57faea878e89dc.bindPopup(popup_709b8fd646d72fd526b9dd530b1075b2)
+        ;
+
+        
+    
+    
+            var circle_marker_db85b20f72e7f0f0c9e8d016fa566d05 = L.circleMarker(
+                [53.3703, -1.4715],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30a5c2ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_8dd5e91dbb15aa4f98730432298955a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a652aa7a6cca6c95229e841a120091 = $(`<div id="html_a6a652aa7a6cca6c95229e841a120091" style="width: 100.0%; height: 100.0%;">Bramall Lane<br>Avg Fill: 55.2%</div>`)[0];
+                popup_8dd5e91dbb15aa4f98730432298955a7.setContent(html_a6a652aa7a6cca6c95229e841a120091);
+            
+        
+
+        circle_marker_db85b20f72e7f0f0c9e8d016fa566d05.bindPopup(popup_8dd5e91dbb15aa4f98730432298955a7)
+        ;
+
+        
+    
+    
+            var circle_marker_84f9fd84303938ed190238bc395437a6 = L.circleMarker(
+                [51.4908, -0.2887],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#091e5bff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_e25220c21a564e13709d2ab643d2deae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9865625d86e1d138c7b6f61f1608fc2 = $(`<div id="html_b9865625d86e1d138c7b6f61f1608fc2" style="width: 100.0%; height: 100.0%;">Brentford Community Stadium<br>Avg Fill: 98.5%</div>`)[0];
+                popup_e25220c21a564e13709d2ab643d2deae.setContent(html_b9865625d86e1d138c7b6f61f1608fc2);
+            
+        
+
+        circle_marker_84f9fd84303938ed190238bc395437a6.bindPopup(popup_e25220c21a564e13709d2ab643d2deae)
+        ;
+
+        
+    
+    
+            var circle_marker_5c2c82e86879b323f076ecd7e8327e29 = L.circleMarker(
+                [52.6222, 1.3092],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#243896ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_06ec597d128def0e18b3bfb8bc8b882c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9add4ceb7591f3a48d19be61e752c890 = $(`<div id="html_9add4ceb7591f3a48d19be61e752c890" style="width: 100.0%; height: 100.0%;">Carrow Road<br>Avg Fill: 85.4%</div>`)[0];
+                popup_06ec597d128def0e18b3bfb8bc8b882c.setContent(html_9add4ceb7591f3a48d19be61e752c890);
+            
+        
+
+        circle_marker_5c2c82e86879b323f076ecd7e8327e29.bindPopup(popup_06ec597d128def0e18b3bfb8bc8b882c)
+        ;
+
+        
+    
+    
+            var circle_marker_40c558afb5eaf7ddf7b4feebee95a78e = L.circleMarker(
+                [51.4749, -0.2216],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1d8fbfff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_2acecc98328d498618a46d2b3bc31746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8514617e5776079f199e9da7538fe2f = $(`<div id="html_d8514617e5776079f199e9da7538fe2f" style="width: 100.0%; height: 100.0%;">Craven Cottage<br>Avg Fill: 62.6%</div>`)[0];
+                popup_2acecc98328d498618a46d2b3bc31746.setContent(html_d8514617e5776079f199e9da7538fe2f);
+            
+        
+
+        circle_marker_40c558afb5eaf7ddf7b4feebee95a78e.bindPopup(popup_2acecc98328d498618a46d2b3bc31746)
+        ;
+
+        
+    
+    
+            var circle_marker_64a3134af26f9dfa57f5fec2aabdd944 = L.circleMarker(
+                [53.7778, -1.573],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e85bbff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_9ad0e29a1dbca78a50d082ccaec8ed36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a9bbf88cc64d7d0581e529d707ced39 = $(`<div id="html_0a9bbf88cc64d7d0581e529d707ced39" style="width: 100.0%; height: 100.0%;">Elland Road<br>Avg Fill: 65.0%</div>`)[0];
+                popup_9ad0e29a1dbca78a50d082ccaec8ed36.setContent(html_0a9bbf88cc64d7d0581e529d707ced39);
+            
+        
+
+        circle_marker_64a3134af26f9dfa57f5fec2aabdd944.bindPopup(popup_9ad0e29a1dbca78a50d082ccaec8ed36)
+        ;
+
+        
+    
+    
+            var circle_marker_3160cb89ca80c4768a18286bf728fd90 = L.circleMarker(
+                [51.555, -0.1086],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#225ba7ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_2e2c34a3be769101dea5900a3aa6b547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9d344f708dcc35224e8e97997b6012a = $(`<div id="html_c9d344f708dcc35224e8e97997b6012a" style="width: 100.0%; height: 100.0%;">Emirates Stadium<br>Avg Fill: 75.2%</div>`)[0];
+                popup_2e2c34a3be769101dea5900a3aa6b547.setContent(html_c9d344f708dcc35224e8e97997b6012a);
+            
+        
+
+        circle_marker_3160cb89ca80c4768a18286bf728fd90.bindPopup(popup_2e2c34a3be769101dea5900a3aa6b547)
+        ;
+
+        
+    
+    
+            var circle_marker_bb19a30d816a54c1f347105c9b974647 = L.circleMarker(
+                [53.4831, -2.2004],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#206aaeff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_9593f53a150d7cbf6123ae5ee088efb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3b58e0a55e59dd3cc718d0a91528b6 = $(`<div id="html_ef3b58e0a55e59dd3cc718d0a91528b6" style="width: 100.0%; height: 100.0%;">Etihad Stadium<br>Avg Fill: 71.4%</div>`)[0];
+                popup_9593f53a150d7cbf6123ae5ee088efb7.setContent(html_ef3b58e0a55e59dd3cc718d0a91528b6);
+            
+        
+
+        circle_marker_bb19a30d816a54c1f347105c9b974647.bindPopup(popup_9593f53a150d7cbf6123ae5ee088efb7)
+        ;
+
+        
+    
+    
+            var circle_marker_969bc8f0369375887bfd8346374b3bce = L.circleMarker(
+                [53.4388, -2.9664],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2165acff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_d3fa20546ef470774149c89e79498718 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e34b73d489bd5f9da231920e316ec9a2 = $(`<div id="html_e34b73d489bd5f9da231920e316ec9a2" style="width: 100.0%; height: 100.0%;">Goodison Park<br>Avg Fill: 72.7%</div>`)[0];
+                popup_d3fa20546ef470774149c89e79498718.setContent(html_e34b73d489bd5f9da231920e316ec9a2);
+            
+        
+
+        circle_marker_969bc8f0369375887bfd8346374b3bce.bindPopup(popup_d3fa20546ef470774149c89e79498718)
+        ;
+
+        
+    
+    
+            var circle_marker_13fe4a0b9b4f2686d53e474fc9586cd7 = L.circleMarker(
+                [51.4908, -0.2887],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#081d59ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_7def3528b4268847b8dfd6a46cfad72a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c63339fe87580365ecb97b97122f2823 = $(`<div id="html_c63339fe87580365ecb97b97122f2823" style="width: 100.0%; height: 100.0%;">Gtech Community Stadium<br>Avg Fill: 99.0%</div>`)[0];
+                popup_7def3528b4268847b8dfd6a46cfad72a.setContent(html_c63339fe87580365ecb97b97122f2823);
+            
+        
+
+        circle_marker_13fe4a0b9b4f2686d53e474fc9586cd7.bindPopup(popup_7def3528b4268847b8dfd6a46cfad72a)
+        ;
+
+        
+    
+    
+            var circle_marker_567542b8a419ab7df71a9ffda55c7016 = L.circleMarker(
+                [51.8842, -0.4317],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#162875ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_73827217502a79f0f38e620d998818bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e62dc6552007726a9bd943e3b2568d68 = $(`<div id="html_e62dc6552007726a9bd943e3b2568d68" style="width: 100.0%; height: 100.0%;">Kenilworth Road Stadium<br>Avg Fill: 93.2%</div>`)[0];
+                popup_73827217502a79f0f38e620d998818bc.setContent(html_e62dc6552007726a9bd943e3b2568d68);
+            
+        
+
+        circle_marker_567542b8a419ab7df71a9ffda55c7016.bindPopup(popup_73827217502a79f0f38e620d998818bc)
+        ;
+
+        
+    
+    
+            var circle_marker_e070e573c5f041e27d8f6bbc24bfc49d = L.circleMarker(
+                [52.6203, -1.1422],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2073b2ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_531beaadc019d13771fe865f6f36ebcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2285b2d692eace3ecb138636818f3689 = $(`<div id="html_2285b2d692eace3ecb138636818f3689" style="width: 100.0%; height: 100.0%;">King Power Stadium<br>Avg Fill: 69.4%</div>`)[0];
+                popup_531beaadc019d13771fe865f6f36ebcf.setContent(html_2285b2d692eace3ecb138636818f3689);
+            
+        
+
+        circle_marker_e070e573c5f041e27d8f6bbc24bfc49d.bindPopup(popup_531beaadc019d13771fe865f6f36ebcf)
+        ;
+
+        
+    
+    
+            var circle_marker_23864b9d98fca4966d728ebdf96b42d4 = L.circleMarker(
+                [51.5386, -0.0164],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2164abff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_9e64662205d26a6c7ede884acd59dbe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e331e29d4ef195292a4ee6c63ffec5 = $(`<div id="html_33e331e29d4ef195292a4ee6c63ffec5" style="width: 100.0%; height: 100.0%;">London Stadium<br>Avg Fill: 73.0%</div>`)[0];
+                popup_9e64662205d26a6c7ede884acd59dbe0.setContent(html_33e331e29d4ef195292a4ee6c63ffec5);
+            
+        
+
+        circle_marker_23864b9d98fca4966d728ebdf96b42d4.bindPopup(popup_9e64662205d26a6c7ede884acd59dbe0)
+        ;
+
+        
+    
+    
+            var circle_marker_a0f65035ef296529f6a3e14bf34bfab4 = L.circleMarker(
+                [52.5903, -2.1303],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#225da8ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_bc776f269b0418a28a809b83aaa26b57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79ad80cd2c550095fc6fc9c2e6a2a128 = $(`<div id="html_79ad80cd2c550095fc6fc9c2e6a2a128" style="width: 100.0%; height: 100.0%;">Molineux Stadium<br>Avg Fill: 74.7%</div>`)[0];
+                popup_bc776f269b0418a28a809b83aaa26b57.setContent(html_79ad80cd2c550095fc6fc9c2e6a2a128);
+            
+        
+
+        circle_marker_a0f65035ef296529f6a3e14bf34bfab4.bindPopup(popup_bc776f269b0418a28a809b83aaa26b57)
+        ;
+
+        
+    
+    
+            var circle_marker_244695cdce18fc280aa2331460d398f7 = L.circleMarker(
+                [53.4631, -2.2913],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#225ca7ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_a69f60bb3cc0f1207b436a2a29fd9e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7088cd09e5ee69ee7d0481122c9b1129 = $(`<div id="html_7088cd09e5ee69ee7d0481122c9b1129" style="width: 100.0%; height: 100.0%;">Old Trafford<br>Avg Fill: 75.1%</div>`)[0];
+                popup_a69f60bb3cc0f1207b436a2a29fd9e83.setContent(html_7088cd09e5ee69ee7d0481122c9b1129);
+            
+        
+
+        circle_marker_244695cdce18fc280aa2331460d398f7.bindPopup(popup_a69f60bb3cc0f1207b436a2a29fd9e83)
+        ;
+
+        
+    
+    
+            var circle_marker_3c40b48a3b99eef9c2743b685575dd48 = L.circleMarker(
+                [51.3983, -0.0856],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2167adff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_d2c2171ccaa2266816f8df2bb88692f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f70149ab056347e42544443697e257 = $(`<div id="html_c3f70149ab056347e42544443697e257" style="width: 100.0%; height: 100.0%;">Selhurst Park<br>Avg Fill: 72.1%</div>`)[0];
+                popup_d2c2171ccaa2266816f8df2bb88692f7.setContent(html_c3f70149ab056347e42544443697e257);
+            
+        
+
+        circle_marker_3c40b48a3b99eef9c2743b685575dd48.bindPopup(popup_d2c2171ccaa2266816f8df2bb88692f7)
+        ;
+
+        
+    
+    
+            var circle_marker_5a50bc4955c3b1b4627d290c03844f82 = L.circleMarker(
+                [54.9756, -1.6216],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#081d58ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_7efe9c417fefdcb5a8dba4be0a5ee99b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e01d9ca90bbf72af519fb82a0bdbc1ee = $(`<div id="html_e01d9ca90bbf72af519fb82a0bdbc1ee" style="width: 100.0%; height: 100.0%;">St James' Park<br>Avg Fill: 99.5%</div>`)[0];
+                popup_7efe9c417fefdcb5a8dba4be0a5ee99b.setContent(html_e01d9ca90bbf72af519fb82a0bdbc1ee);
+            
+        
+
+        circle_marker_5a50bc4955c3b1b4627d290c03844f82.bindPopup(popup_7efe9c417fefdcb5a8dba4be0a5ee99b)
+        ;
+
+        
+    
+    
+            var circle_marker_fdfc278e38542aa0138c698b0f5b4d16 = L.circleMarker(
+                [54.9756, -1.6216],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2fa4c2ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_dd423899a7f42744be282a97401ac510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8086b0c711ae022870a1914c948b2283 = $(`<div id="html_8086b0c711ae022870a1914c948b2283" style="width: 100.0%; height: 100.0%;">St. James' Park<br>Avg Fill: 55.7%</div>`)[0];
+                popup_dd423899a7f42744be282a97401ac510.setContent(html_8086b0c711ae022870a1914c948b2283);
+            
+        
+
+        circle_marker_fdfc278e38542aa0138c698b0f5b4d16.bindPopup(popup_dd423899a7f42744be282a97401ac510)
+        ;
+
+        
+    
+    
+            var circle_marker_61776fa1ec56d24aeeebc3af7eba0857 = L.circleMarker(
+                [50.9061, -1.3917],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e84baff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_be03b7cb3c83278216f9e6fa7060e9cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8561a0e27d7b575e66314e652e7d455 = $(`<div id="html_c8561a0e27d7b575e66314e652e7d455" style="width: 100.0%; height: 100.0%;">St. Mary's Stadium<br>Avg Fill: 65.3%</div>`)[0];
+                popup_be03b7cb3c83278216f9e6fa7060e9cd.setContent(html_c8561a0e27d7b575e66314e652e7d455);
+            
+        
+
+        circle_marker_61776fa1ec56d24aeeebc3af7eba0857.bindPopup(popup_be03b7cb3c83278216f9e6fa7060e9cd)
+        ;
+
+        
+    
+    
+            var circle_marker_ab02b955386c07b084074449fa41faeb = L.circleMarker(
+                [51.4817, -0.191],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#206cafff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_fca0da810439d557435fb87eff9902fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99d83665547834dd4f3170526e42f10c = $(`<div id="html_99d83665547834dd4f3170526e42f10c" style="width: 100.0%; height: 100.0%;">Stamford Bridge<br>Avg Fill: 71.0%</div>`)[0];
+                popup_fca0da810439d557435fb87eff9902fe.setContent(html_99d83665547834dd4f3170526e42f10c);
+            
+        
+
+        circle_marker_ab02b955386c07b084074449fa41faeb.bindPopup(popup_fca0da810439d557435fb87eff9902fe)
+        ;
+
+        
+    
+    
+            var circle_marker_c10a08872deb88c4fb5dc794808ffe21 = L.circleMarker(
+                [50.8619, -0.0833],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2162aaff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_d07ee936c903cd4a1daadb1cb18e2e6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd94a7fb8fc21dc031b3ed6a0367b399 = $(`<div id="html_cd94a7fb8fc21dc031b3ed6a0367b399" style="width: 100.0%; height: 100.0%;">The American Express Community Stadium<br>Avg Fill: 73.4%</div>`)[0];
+                popup_d07ee936c903cd4a1daadb1cb18e2e6c.setContent(html_cd94a7fb8fc21dc031b3ed6a0367b399);
+            
+        
+
+        circle_marker_c10a08872deb88c4fb5dc794808ffe21.bindPopup(popup_d07ee936c903cd4a1daadb1cb18e2e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_1291c5d958a2639dea7eabeff09c37b5 = L.circleMarker(
+                [52.9399, -1.1328],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#102369ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_c14ff2662d294c7b87a83e40c3df7e6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6924c34d5e51a1d93b39bd943955acb5 = $(`<div id="html_6924c34d5e51a1d93b39bd943955acb5" style="width: 100.0%; height: 100.0%;">The City Ground<br>Avg Fill: 95.7%</div>`)[0];
+                popup_c14ff2662d294c7b87a83e40c3df7e6f.setContent(html_6924c34d5e51a1d93b39bd943955acb5);
+            
+        
+
+        circle_marker_1291c5d958a2639dea7eabeff09c37b5.bindPopup(popup_c14ff2662d294c7b87a83e40c3df7e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_f2fcb194e7853adc00cf765b6b8c3522 = L.circleMarker(
+                [52.5092, -1.9639],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feffd6ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_205cf46ade3306a993bfdcaad1f4ab68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5c828db8ce594dbf398dd7fc464f1a2 = $(`<div id="html_b5c828db8ce594dbf398dd7fc464f1a2" style="width: 100.0%; height: 100.0%;">The Hawthorns<br>Avg Fill: 1.1%</div>`)[0];
+                popup_205cf46ade3306a993bfdcaad1f4ab68.setContent(html_b5c828db8ce594dbf398dd7fc464f1a2);
+            
+        
+
+        circle_marker_f2fcb194e7853adc00cf765b6b8c3522.bindPopup(popup_205cf46ade3306a993bfdcaad1f4ab68)
+        ;
+
+        
+    
+    
+            var circle_marker_0415c50249030edcf1a8c4c66dadf6f4 = L.circleMarker(
+                [51.6042, -0.067],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2167adff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_6840ce948844bd1fee0cfb29700feb6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b77bc16a2d3aaa43f7625170f8f9151 = $(`<div id="html_8b77bc16a2d3aaa43f7625170f8f9151" style="width: 100.0%; height: 100.0%;">Tottenham Hotspur Stadium<br>Avg Fill: 72.2%</div>`)[0];
+                popup_6840ce948844bd1fee0cfb29700feb6c.setContent(html_8b77bc16a2d3aaa43f7625170f8f9151);
+            
+        
+
+        circle_marker_0415c50249030edcf1a8c4c66dadf6f4.bindPopup(popup_6840ce948844bd1fee0cfb29700feb6c)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ea7476a1667f41b9cd44299d180704 = L.circleMarker(
+                [53.7891, -2.2306],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e87bbff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_381f06c371d8734230e654fb3d630a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_208b76e8bbf9185c2bcfae14c351c5f2 = $(`<div id="html_208b76e8bbf9185c2bcfae14c351c5f2" style="width: 100.0%; height: 100.0%;">Turf Moor<br>Avg Fill: 64.5%</div>`)[0];
+                popup_381f06c371d8734230e654fb3d630a6d.setContent(html_208b76e8bbf9185c2bcfae14c351c5f2);
+            
+        
+
+        circle_marker_b5ea7476a1667f41b9cd44299d180704.bindPopup(popup_381f06c371d8734230e654fb3d630a6d)
+        ;
+
+        
+    
+    
+            var circle_marker_30c203c12258ea3ff0ea4aecc9a1adc0 = L.circleMarker(
+                [51.6499, -0.4018],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#23479dff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_a09cd499e60ce5bac51ee26ac9d8f269 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7977eed6635a67ad6b98cfdd1d64c65 = $(`<div id="html_c7977eed6635a67ad6b98cfdd1d64c65" style="width: 100.0%; height: 100.0%;">Vicarage Road Stadium<br>Avg Fill: 81.0%</div>`)[0];
+                popup_a09cd499e60ce5bac51ee26ac9d8f269.setContent(html_c7977eed6635a67ad6b98cfdd1d64c65);
+            
+        
+
+        circle_marker_30c203c12258ea3ff0ea4aecc9a1adc0.bindPopup(popup_a09cd499e60ce5bac51ee26ac9d8f269)
+        ;
+
+        
+    
+    
+            var circle_marker_1c59d3c9be9b84257abdcac0c857cc96 = L.circleMarker(
+                [52.509, -1.8849],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2167adff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_5277f0247613290453d489e35dfc42eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18110fd50d02287eb8f1c08f0f598848 = $(`<div id="html_18110fd50d02287eb8f1c08f0f598848" style="width: 100.0%; height: 100.0%;">Villa Park<br>Avg Fill: 72.1%</div>`)[0];
+                popup_5277f0247613290453d489e35dfc42eb.setContent(html_18110fd50d02287eb8f1c08f0f598848);
+            
+        
+
+        circle_marker_1c59d3c9be9b84257abdcac0c857cc96.bindPopup(popup_5277f0247613290453d489e35dfc42eb)
+        ;
+
+        
+    
+    
+            var circle_marker_521f52f7d4320481dacaabf0f78ee3a7 = L.circleMarker(
+                [50.7352, -1.8383],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#243a97ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_98a3495e896476f20a24944fd34c7ab1);
+        
+    
+        var popup_04f3b248760c16df35205efba4fe3286 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74f5b527d6be8e0f2ef1c83c4695eee1 = $(`<div id="html_74f5b527d6be8e0f2ef1c83c4695eee1" style="width: 100.0%; height: 100.0%;">Vitality Stadium<br>Avg Fill: 84.9%</div>`)[0];
+                popup_04f3b248760c16df35205efba4fe3286.setContent(html_74f5b527d6be8e0f2ef1c83c4695eee1);
+            
+        
+
+        circle_marker_521f52f7d4320481dacaabf0f78ee3a7.bindPopup(popup_04f3b248760c16df35205efba4fe3286)
+        ;
+
+        
+    
+    
+    var color_map_e0a87eb39ebf916d60e90e28d6c8b685 = {};
+
+    
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.color = d3.scale.threshold()
+              .domain([0.0, 0.1988515373065364, 0.3977030746130728, 0.5965546119196092, 0.7954061492261456, 0.9942576865326821, 1.1931092238392185, 1.391960761145755, 1.5908122984522912, 1.7896638357588277, 1.9885153730653642, 2.1873669103719005, 2.386218447678437, 2.5850699849849734, 2.78392152229151, 2.982773059598046, 3.1816245969045824, 3.380476134211119, 3.5793276715176554, 3.778179208824192, 3.9770307461307284, 4.175882283437264, 4.374733820743801, 4.573585358050338, 4.772436895356874, 4.9712884326634095, 5.170139969969947, 5.368991507276483, 5.56784304458302, 5.766694581889555, 5.965546119196092, 6.164397656502629, 6.363249193809165, 6.562100731115701, 6.760952268422238, 6.959803805728775, 7.158655343035311, 7.357506880341846, 7.556358417648384, 7.75520995495492, 7.954061492261457, 8.152913029567992, 8.351764566874529, 8.550616104181065, 8.749467641487602, 8.948319178794138, 9.147170716100677, 9.346022253407211, 9.544873790713748, 9.743725328020284, 9.942576865326819, 10.141428402633357, 10.340279939939894, 10.53913147724643, 10.737983014552967, 10.936834551859503, 11.13568608916604, 11.334537626472574, 11.53338916377911, 11.732240701085649, 11.931092238392184, 12.12994377569872, 12.328795313005259, 12.527646850311795, 12.72649838761833, 12.925349924924866, 13.124201462231403, 13.32305299953794, 13.521904536844476, 13.720756074151012, 13.91960761145755, 14.118459148764085, 14.317310686070622, 14.516162223377158, 14.715013760683693, 14.913865297990231, 15.112716835296768, 15.311568372603304, 15.51041990990984, 15.709271447216377, 15.908122984522914, 16.10697452182945, 16.305826059135985, 16.504677596442523, 16.703529133749058, 16.902380671055596, 17.10123220836213, 17.300083745668665, 17.498935282975204, 17.697786820281742, 17.896638357588277, 18.095489894894815, 18.294341432201353, 18.493192969507884, 18.692044506814423, 18.890896044120957, 19.089747581427496, 19.288599118734034, 19.48745065604057, 19.686302193347107, 19.885153730653638, 20.084005267960176, 20.282856805266714, 20.48170834257325, 20.680559879879787, 20.879411417186326, 21.07826295449286, 21.277114491799395, 21.475966029105933, 21.674817566412468, 21.873669103719006, 22.07252064102554, 22.27137217833208, 22.470223715638618, 22.66907525294515, 22.867926790251687, 23.06677832755822, 23.26562986486476, 23.464481402171298, 23.663332939477833, 23.862184476784368, 24.061036014090906, 24.25988755139744, 24.45873908870398, 24.657590626010517, 24.856442163317052, 25.05529370062359, 25.25414523793012, 25.45299677523666, 25.651848312543198, 25.850699849849732, 26.04955138715627, 26.248402924462805, 26.447254461769344, 26.64610599907588, 26.844957536382413, 27.04380907368895, 27.24266061099549, 27.441512148302024, 27.640363685608563, 27.8392152229151, 28.038066760221632, 28.23691829752817, 28.435769834834705, 28.634621372141243, 28.83347290944778, 29.032324446754316, 29.231175984060854, 29.430027521367386, 29.628879058673924, 29.827730595980462, 30.026582133286997, 30.225433670593535, 30.424285207900073, 30.623136745206608, 30.821988282513143, 31.02083981981968, 31.219691357126216, 31.418542894432754, 31.61739443173929, 31.816245969045827, 32.01509750635236, 32.2139490436589, 32.41280058096544, 32.61165211827197, 32.81050365557851, 33.009355192885046, 33.20820673019158, 33.407058267498115, 33.605909804804654, 33.80476134211119, 34.00361287941772, 34.20246441672426, 34.4013159540308, 34.60016749133733, 34.799019028643876, 34.99787056595041, 35.196722103256946, 35.395573640563484, 35.594425177870015, 35.79327671517655, 35.99212825248309, 36.19097978978963, 36.38983132709616, 36.588682864402706, 36.78753440170924, 36.98638593901577, 37.18523747632231, 37.384089013628845, 37.58294055093538, 37.781792088241914, 37.98064362554846, 38.17949516285499, 38.37834670016152, 38.57719823746807, 38.7760497747746, 38.97490131208114, 39.173752849387675, 39.37260438669421, 39.571455924000745, 39.770307461307276, 39.96915899861382, 40.16801053592035, 40.36686207322689, 40.56571361053343, 40.76456514783997, 40.9634166851465, 41.16226822245304, 41.361119759759575, 41.559971297066106, 41.75882283437265, 41.95767437167918, 42.15652590898572, 42.35537744629226, 42.55422898359879, 42.75308052090533, 42.95193205821187, 43.150783595518405, 43.349635132824936, 43.54848667013147, 43.74733820743801, 43.946189744744544, 44.14504128205108, 44.34389281935762, 44.54274435666416, 44.74159589397069, 44.940447431277235, 45.139298968583766, 45.3381505058903, 45.53700204319684, 45.735853580503374, 45.93470511780991, 46.13355665511644, 46.33240819242298, 46.53125972972952, 46.73011126703605, 46.928962804342596, 47.12781434164913, 47.326665878955666, 47.525517416262204, 47.724368953568735, 47.92322049087527, 48.12207202818181, 48.32092356548835, 48.51977510279488, 48.71862664010143, 48.91747817740796, 49.11632971471449, 49.315181252021034, 49.514032789327565, 49.712884326634104, 49.911735863940635, 50.11058740124718, 50.30943893855371, 50.50829047586024, 50.70714201316679, 50.90599355047332, 51.10484508777986, 51.303696625086395, 51.502548162392934, 51.701399699699465, 51.900251237006, 52.09910277431254, 52.29795431161907, 52.49680584892561, 52.69565738623215, 52.89450892353869, 53.09336046084522, 53.29221199815176, 53.491063535458295, 53.689915072764826, 53.88876661007137, 54.0876181473779, 54.28646968468444, 54.48532122199098, 54.68417275929751, 54.88302429660405, 55.08187583391059, 55.280727371217125, 55.479578908523656, 55.6784304458302, 55.87728198313673, 56.076133520443264, 56.2749850577498, 56.47383659505634, 56.67268813236288, 56.87153966966941, 57.070391206975955, 57.26924274428249, 57.46809428158902, 57.66694581889556, 57.865797356202094, 58.06464889350863, 58.26350043081517, 58.46235196812171, 58.66120350542824, 58.86005504273477, 59.05890658004132, 59.25775811734785, 59.456609654654386, 59.655461191960924, 59.85431272926746, 60.053164266573994, 60.25201580388053, 60.45086734118707, 60.6497188784936, 60.84857041580015, 61.04742195310668, 61.246273490413216, 61.445125027719754, 61.643976565026286, 61.842828102332824, 62.04167963963936, 62.2405311769459, 62.43938271425243, 62.63823425155896, 62.83708578886551, 63.03593732617204, 63.23478886347858, 63.433640400785116, 63.632491938091654, 63.831343475398185, 64.03019501270472, 64.22904655001126, 64.4278980873178, 64.62674962462434, 64.82560116193088, 65.0244526992374, 65.22330423654394, 65.42215577385048, 65.62100731115702, 65.81985884846355, 66.01871038577009, 66.21756192307663, 66.41641346038315, 66.6152649976897, 66.81411653499623, 67.01296807230277, 67.21181960960931, 67.41067114691583, 67.60952268422238, 67.80837422152892, 68.00722575883545, 68.20607729614198, 68.40492883344852, 68.60378037075506, 68.8026319080616, 69.00148344536814, 69.20033498267466, 69.39918651998121, 69.59803805728775, 69.79688959459428, 69.99574113190081, 70.19459266920735, 70.39344420651389, 70.59229574382043, 70.79114728112697, 70.98999881843349, 71.18885035574003, 71.38770189304658, 71.5865534303531, 71.78540496765964, 71.98425650496618, 72.1831080422727, 72.38195957957926, 72.5808111168858, 72.77966265419232, 72.97851419149886, 73.17736572880541, 73.37621726611194, 73.57506880341847, 73.773920340725, 73.97277187803154, 74.17162341533809, 74.37047495264461, 74.56932648995115, 74.76817802725769, 74.96702956456421, 75.16588110187077, 75.3647326391773, 75.56358417648383, 75.76243571379037, 75.96128725109692, 76.16013878840344, 76.35899032570998, 76.55784186301652, 76.75669340032304, 76.9555449376296, 77.15439647493614, 77.35324801224266, 77.5520995495492, 77.75095108685574, 77.94980262416227, 78.14865416146881, 78.34750569877535, 78.54635723608187, 78.74520877338843, 78.94406031069497, 79.14291184800149, 79.34176338530803, 79.54061492261455, 79.7394664599211, 79.93831799722764, 80.13716953453417, 80.3360210718407, 80.53487260914724, 80.73372414645378, 80.93257568376032, 81.13142722106686, 81.33027875837338, 81.52913029567993, 81.72798183298647, 81.926833370293, 82.12568490759953, 82.32453644490607, 82.52338798221261, 82.72223951951915, 82.92109105682569, 83.11994259413221, 83.31879413143875, 83.5176456687453, 83.71649720605183, 83.91534874335836, 84.1142002806649, 84.31305181797144, 84.51190335527798, 84.71075489258452, 84.90960642989104, 85.10845796719758, 85.30730950450413, 85.50616104181066, 85.7050125791172, 85.90386411642373, 86.10271565373026, 86.30156719103681, 86.50041872834333, 86.69927026564987, 86.89812180295641, 87.09697334026293, 87.29582487756949, 87.49467641487603, 87.69352795218255, 87.89237948948909, 88.09123102679564, 88.29008256410216, 88.4889341014087, 88.68778563871524, 88.88663717602176, 89.08548871332832, 89.28434025063486, 89.48319178794138, 89.68204332524792, 89.88089486255447, 90.079746399861, 90.27859793716753, 90.47744947447407, 90.6763010117806, 90.87515254908715, 91.07400408639369, 91.27285562370021, 91.47170716100675, 91.67055869831329, 91.86941023561982, 92.06826177292636, 92.26711331023289, 92.46596484753942, 92.66481638484596, 92.8636679221525, 93.06251945945904, 93.26137099676558, 93.4602225340721, 93.65907407137865, 93.85792560868519, 94.05677714599172, 94.25562868329826, 94.4544802206048, 94.65333175791133, 94.85218329521787, 95.05103483252441, 95.24988636983093, 95.44873790713747, 95.64758944444402, 95.84644098175055, 96.04529251905709, 96.24414405636362, 96.44299559367016, 96.6418471309767, 96.84069866828324, 97.03955020558976, 97.2384017428963, 97.43725328020285, 97.63610481750938, 97.83495635481592, 98.03380789212245, 98.23265942942898, 98.43151096673553, 98.63036250404207, 98.82921404134859, 99.02806557865513, 99.22691711596167])
+              .range(['#ffffd9ff', '#ffffd9ff', '#ffffd8ff', '#ffffd7ff', '#feffd7ff', '#feffd6ff', '#feffd5ff', '#fdffd5ff', '#fdffd4ff', '#fdfed4ff', '#fdfed3ff', '#fcfed2ff', '#fcfed2ff', '#fcfed1ff', '#fbfed0ff', '#fbfed0ff', '#fbfecfff', '#fbfeceff', '#fafdceff', '#fafdcdff', '#fafdccff', '#f9fdccff', '#f9fdcbff', '#f9fdcbff', '#f9fdcaff', '#f8fdc9ff', '#f8fdc9ff', '#f8fcc8ff', '#f7fcc7ff', '#f7fcc7ff', '#f7fcc6ff', '#f7fcc5ff', '#f6fcc5ff', '#f6fcc4ff', '#f6fcc3ff', '#f5fcc3ff', '#f5fbc2ff', '#f5fbc2ff', '#f4fbc1ff', '#f4fbc0ff', '#f4fbc0ff', '#f4fbbfff', '#f3fbbeff', '#f3fbbeff', '#f3fbbdff', '#f2fabcff', '#f2fabcff', '#f2fabbff', '#f2fabaff', '#f1fabaff', '#f1fab9ff', '#f1fab9ff', '#f0fab8ff', '#f0fab7ff', '#f0f9b7ff', '#f0f9b6ff', '#eff9b5ff', '#eff9b5ff', '#eff9b4ff', '#eef9b3ff', '#eef9b3ff', '#eef9b2ff', '#eef9b1ff', '#edf8b1ff', '#ecf8b1ff', '#ecf8b1ff', '#ebf8b1ff', '#ebf7b1ff', '#eaf7b1ff', '#e9f7b2ff', '#e9f7b2ff', '#e8f6b2ff', '#e8f6b2ff', '#e7f6b2ff', '#e6f6b2ff', '#e6f5b2ff', '#e5f5b2ff', '#e4f5b2ff', '#e4f5b2ff', '#e3f4b2ff', '#e3f4b2ff', '#e2f4b2ff', '#e1f4b2ff', '#e1f3b2ff', '#e0f3b2ff', '#e0f3b2ff', '#dff3b2ff', '#def3b2ff', '#def2b2ff', '#ddf2b2ff', '#ddf2b3ff', '#dcf2b3ff', '#dbf1b3ff', '#dbf1b3ff', '#daf1b3ff', '#d9f1b3ff', '#d9f0b3ff', '#d8f0b3ff', '#d8f0b3ff', '#d7f0b3ff', '#d6efb3ff', '#d6efb3ff', '#d5efb3ff', '#d5efb3ff', '#d4eeb3ff', '#d3eeb3ff', '#d3eeb3ff', '#d2eeb3ff', '#d2edb3ff', '#d1edb3ff', '#d0edb3ff', '#d0edb4ff', '#cfecb4ff', '#ceecb4ff', '#ceecb4ff', '#cdecb4ff', '#cdecb4ff', '#ccebb4ff', '#cbebb4ff', '#cbebb4ff', '#caebb4ff', '#caeab4ff', '#c9eab4ff', '#c8eab4ff', '#c8eab4ff', '#c7e9b4ff', '#c6e9b4ff', '#c5e8b4ff', '#c4e8b5ff', '#c2e7b5ff', '#c1e7b5ff', '#c0e7b5ff', '#bfe6b5ff', '#bee6b5ff', '#bde5b5ff', '#bbe5b5ff', '#bae4b5ff', '#b9e4b6ff', '#b8e3b6ff', '#b7e3b6ff', '#b6e3b6ff', '#b4e2b6ff', '#b3e2b6ff', '#b2e1b6ff', '#b1e1b6ff', '#b0e0b6ff', '#afe0b7ff', '#addfb7ff', '#acdfb7ff', '#abdeb7ff', '#aadeb7ff', '#a9deb7ff', '#a8ddb7ff', '#a7ddb7ff', '#a5dcb8ff', '#a4dcb8ff', '#a3dbb8ff', '#a2dbb8ff', '#a1dab8ff', '#a0dab8ff', '#9edab8ff', '#9dd9b8ff', '#9cd9b8ff', '#9bd8b9ff', '#9ad8b9ff', '#99d7b9ff', '#97d7b9ff', '#96d6b9ff', '#95d6b9ff', '#94d5b9ff', '#93d5b9ff', '#92d5b9ff', '#91d4baff', '#8fd4baff', '#8ed3baff', '#8dd3baff', '#8cd2baff', '#8bd2baff', '#8ad1baff', '#88d1baff', '#87d1baff', '#86d0bbff', '#85d0bbff', '#84cfbbff', '#83cfbbff', '#81cebbff', '#80cebbff', '#7fcdbbff', '#7ecdbbff', '#7dcdbcff', '#7cccbcff', '#7bccbcff', '#7acbbcff', '#79cbbcff', '#78cbbcff', '#77cabcff', '#76cabdff', '#75cabdff', '#74c9bdff', '#73c9bdff', '#72c9bdff', '#71c8bdff', '#70c8bdff', '#6fc7beff', '#6ec7beff', '#6dc7beff', '#6cc6beff', '#6bc6beff', '#6ac6beff', '#69c5beff', '#68c5bfff', '#67c4bfff', '#66c4bfff', '#65c4bfff', '#64c3bfff', '#63c3bfff', '#62c3bfff', '#61c2c0ff', '#60c2c0ff', '#5fc2c0ff', '#5ec1c0ff', '#5dc1c0ff', '#5cc0c0ff', '#5bc0c0ff', '#5ac0c1ff', '#59bfc1ff', '#58bfc1ff', '#57bfc1ff', '#56bec1ff', '#55bec1ff', '#54bdc1ff', '#53bdc2ff', '#52bdc2ff', '#51bcc2ff', '#50bcc2ff', '#4fbcc2ff', '#4ebbc2ff', '#4dbbc2ff', '#4cbac3ff', '#4bbac3ff', '#4abac3ff', '#49b9c3ff', '#48b9c3ff', '#47b9c3ff', '#46b8c3ff', '#45b8c4ff', '#44b8c4ff', '#43b7c4ff', '#42b7c4ff', '#41b6c4ff', '#40b6c4ff', '#40b5c4ff', '#3fb5c4ff', '#3fb4c4ff', '#3eb4c4ff', '#3eb3c4ff', '#3db2c4ff', '#3cb2c4ff', '#3cb1c4ff', '#3bb1c4ff', '#3bb0c4ff', '#3aafc4ff', '#3aafc3ff', '#39aec3ff', '#38aec3ff', '#38adc3ff', '#37acc3ff', '#37acc3ff', '#36abc3ff', '#35abc3ff', '#35aac3ff', '#34a9c3ff', '#34a9c3ff', '#33a8c3ff', '#33a8c3ff', '#32a7c3ff', '#31a6c3ff', '#31a6c2ff', '#30a5c2ff', '#30a5c2ff', '#2fa4c2ff', '#2fa3c2ff', '#2ea3c2ff', '#2da2c2ff', '#2da2c2ff', '#2ca1c2ff', '#2ca0c2ff', '#2ba0c2ff', '#2a9fc2ff', '#2a9fc2ff', '#299ec2ff', '#299dc2ff', '#289dc2ff', '#289cc1ff', '#279cc1ff', '#269bc1ff', '#269bc1ff', '#259ac1ff', '#2599c1ff', '#2499c1ff', '#2398c1ff', '#2398c1ff', '#2297c1ff', '#2296c1ff', '#2196c1ff', '#2195c1ff', '#2095c1ff', '#1f94c1ff', '#1f93c1ff', '#1e93c0ff', '#1e92c0ff', '#1d92c0ff', '#1d91c0ff', '#1d90c0ff', '#1d8fbfff', '#1d8fbfff', '#1d8ebfff', '#1d8dbeff', '#1d8cbeff', '#1d8bbeff', '#1d8abdff', '#1d8abdff', '#1d89bcff', '#1e88bcff', '#1e87bcff', '#1e86bbff', '#1e85bbff', '#1e85baff', '#1e84baff', '#1e83baff', '#1e82b9ff', '#1e81b9ff', '#1e81b8ff', '#1e80b8ff', '#1e7fb8ff', '#1e7eb7ff', '#1f7db7ff', '#1f7cb7ff', '#1f7cb6ff', '#1f7bb6ff', '#1f7ab5ff', '#1f79b5ff', '#1f78b5ff', '#1f78b4ff', '#1f77b4ff', '#1f76b3ff', '#1f75b3ff', '#1f74b3ff', '#2073b2ff', '#2073b2ff', '#2072b2ff', '#2071b1ff', '#2070b1ff', '#206fb0ff', '#206eb0ff', '#206eb0ff', '#206dafff', '#206cafff', '#206baeff', '#206aaeff', '#206aaeff', '#2169adff', '#2168adff', '#2167adff', '#2166acff', '#2165acff', '#2165abff', '#2164abff', '#2163abff', '#2162aaff', '#2161aaff', '#2161a9ff', '#2160a9ff', '#225fa9ff', '#225ea8ff', '#225da8ff', '#225da8ff', '#225ca7ff', '#225ba7ff', '#225ba7ff', '#225aa6ff', '#2259a6ff', '#2259a6ff', '#2258a5ff', '#2257a5ff', '#2257a5ff', '#2256a4ff', '#2255a4ff', '#2255a4ff', '#2254a3ff', '#2253a3ff', '#2253a3ff', '#2252a2ff', '#2351a2ff', '#2351a2ff', '#2350a1ff', '#234fa1ff', '#234ea1ff', '#234ea1ff', '#234da0ff', '#234ca0ff', '#234ca0ff', '#234b9fff', '#234a9fff', '#234a9fff', '#23499eff', '#23489eff', '#23489eff', '#23479dff', '#23469dff', '#23469dff', '#23459cff', '#23449cff', '#24449cff', '#24439bff', '#24429bff', '#24429bff', '#24419aff', '#24409aff', '#24409aff', '#243f99ff', '#243e99ff', '#243e99ff', '#243d98ff', '#243c98ff', '#243c98ff', '#243b98ff', '#243a97ff', '#243a97ff', '#243997ff', '#243896ff', '#243896ff', '#243796ff', '#243695ff', '#253595ff', '#253595ff', '#253494ff', '#243494ff', '#243393ff', '#243392ff', '#233291ff', '#233290ff', '#22328fff', '#22318eff', '#21318dff', '#21318cff', '#20308bff', '#20308aff', '#1f2f89ff', '#1f2f88ff', '#1e2f87ff', '#1e2e86ff', '#1d2e85ff', '#1d2e84ff', '#1d2d83ff', '#1c2d82ff', '#1c2d81ff', '#1b2c80ff', '#1b2c7fff', '#1a2b7eff', '#1a2b7eff', '#192b7dff', '#192a7cff', '#182a7bff', '#182a7aff', '#172979ff', '#172978ff', '#162877ff', '#162876ff', '#162875ff', '#152774ff', '#152773ff', '#142772ff', '#142671ff', '#132670ff', '#13256fff', '#12256eff', '#12256dff', '#11246cff', '#11246bff', '#10246aff', '#102369ff', '#0f2368ff', '#0f2367ff', '#0f2266ff', '#0e2265ff', '#0e2164ff', '#0d2163ff', '#0d2162ff', '#0c2062ff', '#0c2061ff', '#0b2060ff', '#0b1f5fff', '#0a1f5eff', '#0a1e5dff', '#091e5cff', '#091e5bff', '#081d5aff', '#081d59ff', '#081d58ff']);
+    
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.x = d3.scale.linear()
+              .domain([0.0, 99.22691711596167])
+              .range([0, 450 - 50]);
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.legend = L.control({position: 'topright'});
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.legend.addTo(map_98a3495e896476f20a24944fd34c7ab1);
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.xAxis = d3.svg.axis()
+        .scale(color_map_e0a87eb39ebf916d60e90e28d6c8b685.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0.0, 12.403364639495209, 24.806729278990417, 37.210093918485626, 49.613458557980834, 62.01682319747604, 74.42018783697125, 86.82355247646646, 99.22691711596167]);
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.g = color_map_e0a87eb39ebf916d60e90e28d6c8b685.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.g.selectAll("rect")
+        .data(color_map_e0a87eb39ebf916d60e90e28d6c8b685.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_e0a87eb39ebf916d60e90e28d6c8b685.x(color_map_e0a87eb39ebf916d60e90e28d6c8b685.color.domain()[i - 1]) : color_map_e0a87eb39ebf916d60e90e28d6c8b685.x.range()[0],
+            x1: i < color_map_e0a87eb39ebf916d60e90e28d6c8b685.color.domain().length ? color_map_e0a87eb39ebf916d60e90e28d6c8b685.x(color_map_e0a87eb39ebf916d60e90e28d6c8b685.color.domain()[i]) : color_map_e0a87eb39ebf916d60e90e28d6c8b685.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_e0a87eb39ebf916d60e90e28d6c8b685.g.call(color_map_e0a87eb39ebf916d60e90e28d6c8b685.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Average Stadium Fill %");
+</script>
+</html>
