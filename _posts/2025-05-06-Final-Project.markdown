@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Kickoff to Final Whistle: Exploring Factors Influencing Stadium Attendance"
-subtitle: " 02806 Social Data Analysis and Visualization - Project Assignment B: The Viz and the Notebook. Workbook by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)"
+subtitle: "02806 Social Data Analysis and Visualization - Project Assignment B: The Viz and the Notebook. Workbook by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)"
 date:   2025-05-06 09:50:57 +0100
 categories: jekyll update
 ---
