@@ -54,15 +54,6 @@ We want to explore football attendance to help us get an understanding of the im
   <p class="caption">Fig. X. Interactive map showing average stadium fill percentage.</p>
 
 
- </div>
-
-  <!-- RIGHT COLUMN -->
-  <div class="column right">
-
-
- <div style="width: 100%; overflow-x: auto;">   
-</div>
-
   <h2>Timing of games - attendance by time and day</h2>
     <p>
      We then examined the timing of the games - and if there were any noticeable patterns between the attendance of the games and the timing.  From the heatmap you can see that Thursday games at 17:30 have the highest attendance, with about 70.000 people. That however is likely based on fewer matches as Thursday fixtures are rare and mostly for special events like European reschedules. However Sundays have the highest overall attendance both for the 15:30 and 17:30 slots. The attendance is consistently high and the games at this time are frequent, making it the most reliably strong day overall attendance vice.
@@ -77,6 +68,17 @@ Here you can see a map of all the stadiums color coordinated by the most common 
 
    <iframe src="/assets/html/mynd5" width="100%" height="600px" style="border:none;"></iframe>
   <p class="caption">Fig. X. ___.</p>
+
+
+
+ </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="column right">
+
+
+ <div style="width: 100%; overflow-x: auto;">   
+</div>
 
 
   <h2>3pm blackout</h2>
