@@ -127,6 +127,10 @@ There were also more games played in August and October that season, likely due 
 
 
  <h2>Results of the games</h2>
+<img src="/assets/img/hogaway.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption"><strong>Fig. 10:</strong> Comparison of home and away wins for each Premier League team (2019–2024).
+</p>
+ 
     <p>
       From this graph we can see that Manchester United has the overall most wins, both at home and away. At the same time do  West Brom, Luton, and Norwich have the fewest wins overall.  We were debating if indeed it mattered for the team's performance if the game was played at their home stadium or away. It is clear from the graph that it does in fact matter, since all the teams perform better at their home games than away. This show how important it is to the clubs to have a strong fan base. Clubs like Brentford, Crystal Palace, and West Ham show noticeable home-away gaps, suggesting a strong home advantage and rely heavily on their fans. 
     </p>
@@ -136,7 +140,7 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 10:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips).
+<p class="caption"><strong>Fig. 11:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips).
 .</p>
 
 
@@ -148,7 +152,7 @@ Then there are the outliers, for example Manchester United and Westham that have
     </p>
 
   <img src="/assets/img/mynd10.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 11:</strong> Correlation between average xG and average home attendance.
+<p class="caption"><strong>Fig. 12:</strong> Correlation between average xG and average home attendance.
 </p>
 
   <h2>Final thoughts</h2>
