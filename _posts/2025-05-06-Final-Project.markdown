@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Kickoff to Final Whistle: A Visual Story About Premier League Attendance, Loyalty, and Capacity"
-subtitle: "by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691)| 02806 Social Data Analysis and Visualization"
+subtitle: "by Áslaug Marta (s232721), Ástríður María (s242976) and Soffía Steingrímsdóttir (s242691) - 02806 Social Data Analysis and Visualization"
 date:   2025-05-06 09:50:57 +0100
 categories: jekyll update
 ---
@@ -13,7 +13,7 @@ categories: jekyll update
   <div class="column left">
     <h1>Premier League data 2019-2024.</h1>
     <p class="lede">
-      In this workbook, we will dive into the data of the past five seasons of the English Premier League through the lens of social data analytics. 
+      In this visual story, we will dive into the data of the past five seasons of the English Premier League through the lens of social data analytics. 
 We chose this topic due to the fact that we are all big football fanatics, and therefore it is intriguing to examine some interesting factors of the Premier League. 
 We want to explore football attendance to help us get an understanding of the impact of fan engagement, assess stadium utilization, the timing of the games and potentially predict and help with stadium planning. Subsequently, we’ll conduct a thorough investigation to find the underlying reasons behind the patterns we uncover. 
     </p>
