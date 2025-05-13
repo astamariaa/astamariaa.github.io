@@ -26,8 +26,10 @@ We want to explore football attendance to help us get an understanding of the im
   <h2>The teams</h2>
     <p>
     There are 20 teams in the Premier League. Each year, the bottom three teams of the league are relegated while three teams are promoted to take their place. For the past 5 seasons, 28 teams have played in the league.  Some teams like Liverpool, Manchester City and Manchester United have remained consistent participants in the Premier League, while others like Fulham and West Brom have moved in and out of the league. This turnover adds variety to the league and introduces differences between seasons in things like stadium capacities, fan culture and team performance dynamics. 
-
   </p>
+
+   <iframe src="/assets/html/team_story_dashboard.html" width="100%" height="600px" style="border:none;"></iframe>
+  <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
 
 
   <h2>Average Attendance</h2>
