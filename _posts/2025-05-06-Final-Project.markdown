@@ -136,7 +136,7 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 10:</strong> London stadiums colored by home win percentage (with W/D/L tooltips).
+<p class="caption"><strong>Fig. 10:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips).
 .</p>
 
 
@@ -186,10 +186,5 @@ World Cup Impact on PL Fixtures – football.london
 </a>
 </p>
    
-
-  <h2>Contribution</h2>
-    <p>
-      BLA
-    </p>
   </div>
 </div>
