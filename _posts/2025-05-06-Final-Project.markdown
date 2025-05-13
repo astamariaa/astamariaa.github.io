@@ -98,7 +98,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
 
   <h2>3pm blackout</h2>
   <p>
-     The 3pm blackout,[<a href="#ref-1">1</a>], was established in the 1960’s UK football and refers to a long-standing rule that no football matches in any league can be broadcasted live on TV in the UK between 2:45pm and 5:15pm on Saturdays. The reason behind this rule was due to the fact that it was feared that televised top-tier games, such as Premier League games,  would reduce attendance to local teams in lower leagues if fans stayed home to watch on TV instead. We decided to examine the games that are during this blackout period further. It is clear to see that the attendance of the games during the blackout is significantly better then to the other games as you can see on this simple bar graph.  
+     The 3pm blackout [<a href="#ref-1">1</a>] was established in the 1960’s UK football and refers to a long-standing rule that no football matches in any league can be broadcasted live on TV in the UK between 2:45pm and 5:15pm on Saturdays. The reason behind this rule was due to the fact that it was feared that televised top-tier games, such as Premier League games,  would reduce attendance to local teams in lower leagues if fans stayed home to watch on TV instead. We decided to examine the games that are during this blackout period further. It is clear to see that the attendance of the games during the blackout is significantly better then to the other games as you can see on this simple bar graph.  
 
   </p>
 
