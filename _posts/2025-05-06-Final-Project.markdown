@@ -23,12 +23,12 @@ We want to explore football attendance to help us get an understanding of the im
     Football culture plays immense value on the presence of fans in the stadium. They say that crowds can have a sway over the results of the game, put pressure on the referees and intimidate opponents. But does this hold true in the real world? We want to examine whether the data reflects this romanticized idea of fans' attendance at football games and their influence on the match. In this notebook, the connection between match attendance and team performance will be explored, and a specific focus on home matches in the English Premier League across five seasons (2019/2020 to 2023/2024). The goal is to quantify trends in attendance and evaluate whether a fuller stadium correlates with better home performance. On top of that we want to assess stadium utilization, the timing of the games and potentially predict and help with stadium planning. Subsequently, we’ll conduct a thorough investigation to find the underlying reasons behind the patterns we uncover. 
     </p>
 
-  <h2>The teams</h2>
+  <h2>Promotions, Relegations, and League Composition</h2>
     <p>
     There are 20 teams in the Premier League. Each year, the bottom three teams of the league are relegated while three teams are promoted to take their place. For the past 5 seasons, 28 teams have played in the league.  Some teams like Liverpool, Manchester City and Manchester United have remained consistent participants in the Premier League, while others like Fulham and West Brom have moved in and out of the league. This turnover adds variety to the league and introduces differences between seasons in things like stadium capacities, fan culture and team performance dynamics. 
   </p>
 
-  <h2>Average Attendance</h2>
+  <h2>Average Attendance Trends Across Premier League Seasons</h2>
     <p>
     The most logical thing was to start our analysis on the data was to begin with examining the stadiums of the teams. We began with comparing the average attendance of all games in the league by seasons. It is clear to see that obviously the Covid-19 pandemic restrictions affected the attendance to the games significantly. However it is interesting to see that after the pandemic, attendance has increased by approximately 10.000 persons per game, peaking in 2023. 
     </p>
@@ -36,7 +36,7 @@ We want to explore football attendance to help us get an understanding of the im
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
   <p class="caption"><strong>Fig. 1:</strong> Average attendance per Premier League season from 2019 to 2024.</p>
  
- <h2>Average stadium attendance vs average stadium fill percentage</h2>
+ <h2>Big Crowds or Full Seats? Comparing Attendance and Stadium Fill</h2>
     <p>
      Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000.
     </p>
@@ -60,7 +60,7 @@ We want to explore football attendance to help us get an understanding of the im
   <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
 
 
-  <h2>Timing of games - attendance by time and day</h2>
+  <h2>Attendance and Match Timing: Patterns by Day and Hour</h2>
     <p>
     We then examined the timing of the games - and if there were any noticeable patterns between the attendance of the games and the timing. 
     </p>
@@ -94,7 +94,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
 </div>
 
 
-  <h2>3pm blackout</h2>
+  <h2>The 3PM Blackout and Its Impact on Match Attendance</h2>
   <p>
      The 3pm blackout [<a href="#ref-1">1</a>] was established in the 1960’s UK football and refers to a long-standing rule that no football matches in any league can be broadcasted live on TV in the UK between 2:45pm and 5:15pm on Saturdays. The reason behind this rule was due to the fact that it was feared that televised top-tier games, such as Premier League games,  would reduce attendance to local teams in lower leagues if fans stayed home to watch on TV instead. We decided to examine the games that are during this blackout period further. It is clear to see that the attendance of the games during the blackout is significantly better then to the other games as you can see on this simple bar graph.  
 
@@ -128,7 +128,7 @@ There were also more games played in August and October that season, likely due 
 
 
 
- <h2>Results of the games</h2>
+ <h2>Home vs. Away: Does It Matter?</h2>
 <img src="/assets/img/hogaway.jpg" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
 <p class="caption"><strong>Fig. 10:</strong> Comparison of home and away wins for each Premier League team (2019–2024).
 </p>
@@ -142,8 +142,8 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 11:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips).
-.</p>
+<p class="caption"><strong>Fig. 11:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips). 
+</p>
 
 
 
