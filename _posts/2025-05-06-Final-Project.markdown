@@ -171,7 +171,9 @@ Then there are the outliers, for example Manchester United and Westham that have
 
   <p>
   <strong>Explainer Notebook:</strong> 
-  <a href="https://github.com/astamariaa/astamariaa.github.io/blob/main/notebook_and_data/social_data_final_project.ipynb">Link to Jupyter Notebook in GitHub</a>
+  <a href="https://github.com/astamariaa/astamariaa.github.io/blob/main/notebook_and_data/social_data_final_project.ipynb" target="_blank">
+    Link to Jupyter Notebook in GitHub
+  </a>
 </p>
 
 <h2>Reference</h2>
