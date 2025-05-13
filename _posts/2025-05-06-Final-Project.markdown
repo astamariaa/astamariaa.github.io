@@ -28,9 +28,8 @@ We want to explore football attendance to help us get an understanding of the im
     There are 20 teams in the Premier League. Each year, the bottom three teams of the league are relegated while three teams are promoted to take their place. For the past 5 seasons, 28 teams have played in the league.  Some teams like Liverpool, Manchester City and Manchester United have remained consistent participants in the Premier League, while others like Fulham and West Brom have moved in and out of the league. This turnover adds variety to the league and introduces differences between seasons in things like stadium capacities, fan culture and team performance dynamics. 
   </p>
 
-   <iframe src="/assets/html/team_story_dashboard.html" width="100%" height="600px" style="border:none;"></iframe>
-  <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
-
+ <iframe src="/assets/html/average_fill_by_team.html" width="100%" height="600px" style="border:none;"></iframe>
+  <p class="caption"><strong>Fig. 0:</strong> Interactive Bar chart. Average Stadium Fill % by Team (2019/20–2023/24) .</p>
 
   <h2>Average Attendance</h2>
     <p>
@@ -45,7 +44,7 @@ We want to explore football attendance to help us get an understanding of the im
      Next up we thought it could be interesting to take a look at the attendance of the games.  We decided to compare the average stadium attendance vs the average stadium fill percentage. It was no surprise to see that there are mostly just the largest clubs in the league that appear  in the top 10 the highest stadium fill, with Manchester United at the top, with average attendance over 50.000.
     </p>
 
-       <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+  <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
   <p class="caption"><strong>Fig. 2:</strong> Top 10 Stadiums by Average Attendance.</p> 
 
   <p> 
