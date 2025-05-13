@@ -29,7 +29,7 @@ We want to explore football attendance to help us get an understanding of the im
   </p>
 
   <iframe src="/assets/html/teams_season.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 0:</strong> Interactive Chart: Compare average stadium fill percentages by team across the 2019–2024 seasons. <a href="assets/plots/average_fill_by_team.html" target="_blank">(Click here to view full interactive version)</a> 
+<p class="caption"><strong>Fig. 0:</strong> Interactive Chart: Compare average stadium fill percentages by team across the 2019–2024 seasons. <a href="/assets/html/average_fill_by_team.html" target="_blank">(Click here to view full interactive version)</a> 
 </p>
 
   <h2>Average Attendance Trends Across Premier League Seasons</h2>
