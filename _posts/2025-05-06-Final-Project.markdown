@@ -108,7 +108,8 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   
 <p>
     From the chart here down below you can see that the smaller clubs play more often during the blackout period, this is likely due to the fact that those games are moved to the traditional kickoff time at 3pm on Saturdays since they have lower media prioritization and less broadcast demand. 
-Then it of course makes sense that the teams that are the least affected by the blackout are the biggest clubs in the league, as their matches are frequently picked for live broadcast due to large followings and high viewership demand.
+    Then it of course makes sense that the teams that are the least affected by the blackout are the biggest clubs in the league, as their matches are frequently picked for live broadcast due to large followings and high viewership demand.
+
 </p>
 
   <img src="/assets/img/mynd7.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
@@ -116,9 +117,9 @@ Then it of course makes sense that the teams that are the least affected by the 
 </p>
 
 <p>
-If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month almost each season. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
-If we examine the data further, we see that relatively few games were played in September 2022 compared to the other years, which could be due to the fact that Queen Elizabeth II passed away in September that year, and therefore, a few games were postponed. That happened both the following days after she passed away and the day of her funeral.
-There were also more games played in August and October that season, likely due to the fact that the World Cup was held in November and December that year. Therefore some of  the games had to be shifted to earlier. 
+If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month <sup>[<a href="#ref-2">2</a>]</sup> almost each season. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
+If we examine the data further, we see that relatively few games were played in September 2022 compared to the other years, which could be due to the fact that Queen Elizabeth II passed away in September that year, and therefore, a few games were postponed <sup>[<a href="#ref-3">3</a>]</sup>. That happened both the following days after she passed away and the day of her funeral.
+There were also more games played in August and October that season, likely due to the fact that the World Cup was held in November and December that year. Therefore some of  the games had to be shifted to earlier<sup>[<a href="#ref-4">4</a>]</sup>.  
 </p>
 
   <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
@@ -166,6 +167,26 @@ Then there are the outliers, for example Manchester United and Westham that have
 <p id="ref-1">
 1. <a href="https://p11.tv/uk-blackout-window-the-history/#:~:text=The%20football%20blackout%20actually%20began,3pm%20matches%20on%20a%20Saturday." target="_blank">
 History of the UK’s 3PM Football Blackout Rule
+</a>
+</p>
+
+## References
+
+<p id="ref-2">
+2. <a href="https://www.premierleague.com/news/2846583" target="_blank">
+Premier League Holiday Fixture Tradition – premierleague.com
+</a>
+</p>
+
+<p id="ref-3">
+3. <a href="https://www.espn.com/soccer/story/_/id/37631812/premier-league-suspended-death-queen-elizabeth-ii" target="_blank">
+Premier League Suspended After Queen Elizabeth II’s Death – ESPN
+</a>
+</p>
+
+<p id="ref-4">
+4. <a href="https://www.football.london/arsenal-fc/news/world-cup-arsenal-chelsea-tottenham-24239125" target="_blank">
+World Cup Impact on PL Fixtures – football.london
 </a>
 </p>
    
