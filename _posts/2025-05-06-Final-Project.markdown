@@ -117,8 +117,8 @@ Here you can see a map of all the stadiums color coordinated by the most common 
 </p>
 
 <p>
-If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month <sup>[<a href="#ref-2">2</a>]</sup> almost each season. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
-If we examine the data further, we see that relatively few games were played in September 2022 compared to the other years, which could be due to the fact that Queen Elizabeth II passed away in September that year, and therefore, a few games were postponed <sup>[<a href="#ref-3">3</a>]</sup>. That happened both the following days after she passed away and the day of her funeral.
+If we take a look at the number of matches played per month, interesting data is gathered. On first look we can see that December is the busiest month almost each season <sup>[<a href="#ref-2">2</a>]</sup>. English football uniquely embraces a packed schedule over the holidays since the holiday period  equals high TV viewership and stadium attendance.
+If we examine the data further, we see that relatively few games were played in September 2022 compared to the other years, which could be due to the fact that Queen Elizabeth II passed away in September that year, and therefore, a few games were postponed<sup>[<a href="#ref-3">3</a>]</sup>. That happened both the following days after she passed away and the day of her funeral.
 There were also more games played in August and October that season, likely due to the fact that the World Cup was held in November and December that year. Therefore some of  the games had to be shifted to earlier<sup>[<a href="#ref-4">4</a>]</sup>.  
 </p>
 
