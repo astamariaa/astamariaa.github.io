@@ -127,7 +127,7 @@ There were also more games played in August and October that season, likely due 
 
 
  <h2>Results of the games</h2>
-<img src="/assets/img/hogaway.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<img src="/assets/img/hogaway.jpg" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
 <p class="caption"><strong>Fig. 10:</strong> Comparison of home and away wins for each Premier League team (2019–2024).
 </p>
  
