@@ -163,8 +163,12 @@ Then there are the outliers, for example Manchester United and Westham that have
       We also discovered that stadium attendance and fill rates don’t always align with on-pitch success, that sunday afternoon fixtures are the most popular amongst the fans and that the 3 pm blackout does in fact enhance the stadium attendance. 
       The correlation between xG and attendance showed that fans are indeed drawn to exciting, high scoring teams, but at the same time do teams with long history, tradition, and large stadium capacity often override pure performance.
      Overall, this analysis has deepened our interest in the Premier League. It highlights how both on-field success and off-field factors shape the world of modern football.
-
    </p>
+
+  <p>
+  <strong>Explainer Notebook:</strong> 
+  <a href="__">Link to Jupyter Notebook in GitHub</a>
+</p>
 
 <h2>Reference</h2>
 
