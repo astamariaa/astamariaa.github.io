@@ -69,6 +69,9 @@ We want to explore football attendance to help us get an understanding of the im
 <p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday.
 .</p>
 
+<iframe src="/assets/html/interactive_attendace_heatmap.html" width="100%" height="600px" style="border:none;"></iframe>
+  <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
+
   <p>
     From the heatmap you can see that Thursday games at 17:30 have the highest attendance, with about 70.000 people. That however is likely based on fewer matches as Thursday fixtures are rare and mostly for special events like European reschedules. However Sundays have the highest overall attendance both for the 15:30 and 17:30 slots. The attendance is consistently high and the games at this time are frequent, making it the most reliably strong day overall attendance vice. 
 
