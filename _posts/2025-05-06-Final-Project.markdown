@@ -163,9 +163,11 @@ Then there are the outliers, for example Manchester United and Westham that have
 
 <h2>Reference</h2>
 
-### References
-
-<p id="ref-1">1. Premier League COVID Attendance Policy, [https://p11.tv/uk-blackout-window-the-history/#:~:text=The%20football%20blackout%20actually%20began,3pm%20matches%20on%20a%20Saturday.](https://p11.tv/uk-blackout-window-the-history/#:~:text=The%20football%20blackout%20actually%20began,3pm%20matches%20on%20a%20Saturday.)</p>
+<p id="ref-1">
+1. <a href="https://p11.tv/uk-blackout-window-the-history/#:~:text=The%20football%20blackout%20actually%20began,3pm%20matches%20on%20a%20Saturday." target="_blank">
+History of the UK’s 3PM Football Blackout Rule
+</a>
+</p>
    
 
   <h2>Contribution</h2>
