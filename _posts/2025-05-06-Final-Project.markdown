@@ -170,8 +170,6 @@ History of the UK’s 3PM Football Blackout Rule
 </a>
 </p>
 
-## References
-
 <p id="ref-2">
 2. <a href="https://www.premierleague.com/news/2846583" target="_blank">
 Premier League Holiday Fixture Tradition – premierleague.com
