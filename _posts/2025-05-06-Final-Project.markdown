@@ -28,12 +28,9 @@ We want to explore football attendance to help us get an understanding of the im
     There are 20 teams in the Premier League. Each year, the bottom three teams of the league are relegated while three teams are promoted to take their place. For the past 5 seasons, 28 teams have played in the league.  Some teams like Liverpool, Manchester City and Manchester United have remained consistent participants in the Premier League, while others like Fulham and West Brom have moved in and out of the league. This turnover adds variety to the league and introduces differences between seasons in things like stadium capacities, fan culture and team performance dynamics. 
   </p>
 
-  <iframe src="/assets/html/teams_season.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 0:</strong> Interactive Chart: Compare average stadium fill percentages by team across the 2019–2024 seasons. <a href="/assets/html/average_fill_by_team.html" target="_blank">(Click here to view full interactive version)</a> 
-</p>
-
 <img src="/assets/img/myndo.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 0:</strong> Compare average stadium fill percentages by team across the 2019–2024 seasons.</p>
+<p class="caption"><strong>Fig. 1:</strong> Compare average stadium fill percentages by team across the 2019–2024 seasons. <a href="/assets/html/average_fill_by_team.html" target="_blank">(Click here to view the interactive version of the Bar Chart)</a> 
+</p>
 
   <h2>Average Attendance Trends Across Premier League Seasons</h2>
     <p>
@@ -41,7 +38,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd1.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 1:</strong> Average attendance per Premier League season from 2019 to 2024.</p>
+  <p class="caption"><strong>Fig. 2:</strong> Average attendance per Premier League season from 2019 to 2024.</p>
  
  <h2>Big Crowds or Full Seats? Comparing Attendance and Stadium Fill</h2>
     <p>
@@ -49,14 +46,14 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
 
   <img src="/assets/img/mynd2.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-  <p class="caption"><strong>Fig. 2:</strong> Top 10 Stadiums by Average Attendance.</p> 
+  <p class="caption"><strong>Fig. 3:</strong> Top 10 Stadiums by Average Attendance.</p> 
 
   <p> 
      However it was quite interesting to see that if we look at the average stadium fill percentage, the Manchester United only fills their stadium about 75% on average. Eight out of the top ten clubs are considered relatively small, with Brentford at the top with on average 98.7% stadium fill at their games. Of course many of these clubs have smaller stadiums which are easier to fill, for example the capacity at Brentfords home stadium is approx 17.000 seats, but this reflects a loyal local fanbase to the smaller clubs which are outperforming the larger ones with efficiency. The high average attendance mostly reflects on the clubs size but the high fill percentage reflects on fan enthusiasm and sell-out consistency.  
     </p>
       
   <img src="/assets/img/mynd3.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 3:</strong> Average Stadium Fill Percentage by Club.</p>
+<p class="caption"><strong>Fig. 4:</strong> Average Stadium Fill Percentage by Club.</p>
 
    <p> 
        Here you can also see a heatmap of the where the stadiums are marked as dots. By clicking the dots, you are able to see the stadium name along with the average stadium fill percentage. 
@@ -64,7 +61,7 @@ We want to explore football attendance to help us get an understanding of the im
 
 
   <iframe src="/assets/html/england_stadium_fill_map.html" width="100%" height="600px" style="border:none;"></iframe>
-  <p class="caption"><strong>Fig. 4:</strong> Interactive map showing average stadium fill percentage.</p>
+  <p class="caption"><strong>Fig. 5:</strong> Interactive map showing average stadium fill percentage.</p>
 
 
   <h2>Attendance and Match Timing: Patterns by Day and Hour</h2>
@@ -73,7 +70,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
      
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday. <a href="/assets/html/interactive_attendance_heatmap_clickable.html" target="_blank">(Click here to view interactive version of the heatmap)</a> 
+<p class="caption"><strong>Fig. 6:</strong> Heatmap showing average attendance by kickoff time and weekday. <a href="/assets/html/interactive_attendance_heatmap_clickable.html" target="_blank">(Click here to view interactive version of the heatmap)</a> 
 .</p>
 
   <p>
@@ -88,7 +85,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
  </p>
 
    <iframe src="/assets/html/mtime" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 6:</strong> Map showing each stadium’s most common kickoff time.</p>
+<p class="caption"><strong>Fig. 7:</strong> Map showing each stadium’s most common kickoff time.</p>
 
 
  </div>
@@ -108,7 +105,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
   </p>
 
   <img src="/assets/img/mynd6.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 7:</strong> Average stadium fill rate comparison: 3PM Saturday vs. other matches.
+<p class="caption"><strong>Fig. 8:</strong> Average stadium fill rate comparison: 3PM Saturday vs. other matches.
 </p>
   
 <p>
@@ -118,7 +115,7 @@ Here you can see a map of all the stadiums color coordinated by the most common 
 </p>
 
   <img src="/assets/img/mynd7.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 8:</strong> Club-level breakdown of how often each team plays during the 3PM blackout window.
+<p class="caption"><strong>Fig. 9:</strong> Club-level breakdown of how often each team plays during the 3PM blackout window.
 </p>
 
   <h2>Postponed and Preponed: How 2022 Events Shaped the Fixture List</h2>
@@ -130,14 +127,14 @@ There were also more games played in August and October that season, likely due 
 </p>
 
   <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 9:</strong> Number of matches played per month (August–January) across seasons. <a href="/assets/html/aug_jan.html" target="_blank">(Click here to view interactive version of the Bar Chart)</a> 
+<p class="caption"><strong>Fig. 10:</strong> Number of matches played per month (August–January) across seasons. <a href="/assets/html/aug_jan.html" target="_blank">(Click here to view interactive version of the Bar Chart)</a> 
 </p>
 
 
 
  <h2>Home vs. Away: Does It Matter?</h2>
 <img src="/assets/img/hogaway.jpg" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 10:</strong> Comparison of home and away wins for each Premier League team (2019–2024). <a href="/assets/html/home_away.html" target="_blank">(Click here to view interactive version of the Bar Chart)</a> 
+<p class="caption"><strong>Fig. 11:</strong> Comparison of home and away wins for each Premier League team (2019–2024). <a href="/assets/html/home_away.html" target="_blank">(Click here to view interactive version of the Bar Chart)</a> 
 </p>
  
     <p>
@@ -149,7 +146,7 @@ There were also more games played in August and October that season, likely due 
  </p>
 
    <iframe src="/assets/html/mynd.html" width="100%" height="600px" style="border:none;"></iframe>
-<p class="caption"><strong>Fig. 11:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips). 
+<p class="caption"><strong>Fig. 12:</strong> Stadiums in PL colored by home win percentage (with W/D/L tooltips). 
 </p>
 
 
@@ -161,7 +158,7 @@ Then there are the outliers, for example Manchester United and Westham that have
     </p>
 
   <img src="/assets/img/mynd10.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 12:</strong> Correlation between average xG and average home attendance.
+<p class="caption"><strong>Fig. 13:</strong> Correlation between average xG and average home attendance.
 </p>
 
   <h2>Final thoughts</h2>
