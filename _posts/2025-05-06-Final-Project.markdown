@@ -127,7 +127,7 @@ There were also more games played in August and October that season, likely due 
 </p>
 
   <img src="/assets/img/mynd8.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 9:</strong> Number of matches played per month (August–January) across seasons.
+<p class="caption"><strong>Fig. 9:</strong> Number of matches played per month (August–January) across seasons.<a href="/assets/html/aug_jan.html" target="_blank">(Click here to view interactive version of the Bar Chart)</a> 
 </p>
 
 
