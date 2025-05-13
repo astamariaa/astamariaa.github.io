@@ -32,6 +32,9 @@ We want to explore football attendance to help us get an understanding of the im
 <p class="caption"><strong>Fig. 0:</strong> Interactive Chart: Compare average stadium fill percentages by team across the 2019–2024 seasons. <a href="/assets/html/average_fill_by_team.html" target="_blank">(Click here to view full interactive version)</a> 
 </p>
 
+<img src="/assets/img/myndo.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
+<p class="caption"><strong>Fig. 0:</strong> Compare average stadium fill percentages by team across the 2019–2024 seasons.</p>
+
   <h2>Average Attendance Trends Across Premier League Seasons</h2>
     <p>
     The most logical thing was to start our analysis on the data was to begin with examining the stadiums of the teams. We began with comparing the average attendance of all games in the league by seasons. It is clear to see that obviously the Covid-19 pandemic restrictions affected the attendance to the games significantly. However it is interesting to see that after the pandemic, attendance has increased by approximately 10.000 persons per game, peaking in 2023. 
