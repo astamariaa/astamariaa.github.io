@@ -70,7 +70,7 @@ We want to explore football attendance to help us get an understanding of the im
     </p>
      
   <img src="/assets/img/mynd4.png" alt="Average Attendance Plot" style="width:100%; max-width:800px;">
-<p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday.
+<p class="caption"><strong>Fig. 5:</strong> Heatmap showing average attendance by kickoff time and weekday. <a href="/assets/html/interactive_attendance_heatmap_clickable.html" target="_blank">(Click here to view interactive version of the heatmap)</a> 
 .</p>
 
   <p>
